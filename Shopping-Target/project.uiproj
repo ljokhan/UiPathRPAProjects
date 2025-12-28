@@ -1,0 +1,6 @@
+{
+  "Name": "Shopping-Target",
+  "ProjectType": "Process",
+  "Description": "Shops for an item on the Target website",
+  "MainFile": "Main.xaml"
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Pickup & delivery",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "PGUJSRjbLEWHChDahKAvTA",
+  "Reference": "tbNKna06XUWzxzhExvOKhQ/PGUJSRjbLEWHChDahKAvTA",
+  "ParentRef": "tbNKna06XUWzxzhExvOKhQ/smyelhTwZU2cAYqiRyzyHw",
+  "Created": "2025-12-28T00:16:12.7200497Z",
+  "Updated": "2025-12-28T00:16:12.7200497Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

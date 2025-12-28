@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Target  Expect More. Pay Less.",
+  "Type": "Screen",
+  "Id": "smyelhTwZU2cAYqiRyzyHw",
+  "Reference": "tbNKna06XUWzxzhExvOKhQ/smyelhTwZU2cAYqiRyzyHw",
+  "ParentRef": "tbNKna06XUWzxzhExvOKhQ/jS209Aj0lUyPGtUs0nIAnA",
+  "Created": "2025-12-28T00:14:05.8127276Z",
+  "Updated": "2025-12-28T00:14:05.8127276Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
