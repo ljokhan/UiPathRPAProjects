@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="JvwSBbhs1UKOUGXCgy_sQQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="520, 483, 1315, 1122" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAABdklEQVRYR81XiW3DMAzkCB4hI2QEj5IRPII3yGICMkJG6AgtriFRhzo9TNUqBxwQWBRJkRdaFgkiiSxJZE0iWxLZlfiNZ4u3H4IkctJAtyTy2SBskNDJ+wlDT3slQXqJva9VRUv6QZxGCR+r919FErkQR7/lxcehCAZHv3t0YawnoWX3m468qxjPZO9Z12Dj9x3J26GCq/V893tK0ET8fiNi5MKsqD0uoraIr94Y/3NvZAwHNzRa+jMndHB4A7BYdu05BAtmmjBU2rEdjZiS70+eFBqY2eMZTaQgzJstQnx+EcxOr8FLfQWxliVRqcJS6xNzxE7u+TjZ8z4k7u3Atdj/gBNGlry3AbdSedgpIhMym3iF6u1vkcD0FkwX4dy/oRqwk/3PIFIDqgNWBYMmMmwUz30ZqfG817FuaF5I6EWCoFJ2kF9IgEbJwL+7khmCE2/spdQQTKKXfcENDRFF+JKIvzH10+wInRMYVj39HvdxyjD68/wLQYD76iWtHVAAAAAASUVORK5CYII=" Selector="&lt;html app='chrome.exe' title='Target : Expect More. Pay Less.' /&gt;" Url="https://www.target.com/" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="288eec4907ed10254544f9c0b709aa43.jpg" xmlns="">0UcODICLvE0Cq8HBu604MsA</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>
