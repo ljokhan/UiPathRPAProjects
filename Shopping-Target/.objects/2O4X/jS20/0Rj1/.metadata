@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Target  Expect More. Pay Less.",
+  "Type": "Screen",
+  "Id": "0Rj1My0ez0WZvlDdkIFs6Q",
+  "Reference": "tbNKna06XUWzxzhExvOKhQ/0Rj1My0ez0WZvlDdkIFs6Q",
+  "ParentRef": "tbNKna06XUWzxzhExvOKhQ/jS209Aj0lUyPGtUs0nIAnA",
+  "Created": "2025-12-28T04:04:27.5592876Z",
+  "Updated": "2025-12-28T04:04:27.5592876Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
