@@ -1,0 +1,13 @@
+﻿{
+  "Name": "$12.99 reg $19.99Sale s…",
+  "Type": "Element",
+  "Id": "td0TRJwV4EST1CNMPTZO-Q",
+  "Reference": "tbNKna06XUWzxzhExvOKhQ/td0TRJwV4EST1CNMPTZO-Q",
+  "ParentRef": "tbNKna06XUWzxzhExvOKhQ/Zx6PNenCuk6uT1KK9q287g",
+  "Created": "2025-12-28T02:24:18.4534554Z",
+  "Updated": "2025-12-28T02:24:18.4534554Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

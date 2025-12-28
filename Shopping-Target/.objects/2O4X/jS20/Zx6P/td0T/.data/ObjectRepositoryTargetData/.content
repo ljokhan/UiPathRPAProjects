@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hVSw0YjdOUuKcWGIj0Gu5A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="target.com/p/logitech-m317c-mouse-cotton-candy/-/A-88374096" DesignTimeRectangle="980, 409, 400, 56" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' parentid='above-the-fold-information' tag='DIV' /&gt;" Guid="fcc6d070-0564-4d73-8d60-7131732832d3" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Logitech M317C Mouse - Cotton Candy : Target' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2447414bdb7312e905414003825c1014.png" xmlns="">0M9BcnsZMxkadjlfYjNRt3g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
