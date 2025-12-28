@@ -1,0 +1,214 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:sd2="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="722.4000000000001,853.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="ItemToShop">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">Logitech mouse</Literal>
+        </Variable.Default>
+      </Variable>
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Edge Target  Expect More. Pay Less." HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="486.4,830.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Always]" ScopeGuid="54c5b0b7-0ae3-4f49-bc82-f74bf3286d86" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484.8,636.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="sd2:DataTable" Default="[New System.Data.DataTable]" Name="DataTableItemsFound" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Enter item to shop for" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,56.8" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="54c5b0b7-0ae3-4f49-bc82-f74bf3286d86" Text="[ItemToShop]" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="target.com" CVScreenId="cfdf500e-4e72-4dcd-b1ab-3cf65db566f9" ContentHash="BXc6apEqfky34cTfmPpHfg" CvElementArea="943, 163, 405, 39" CvType="InputBox" DesignTimeRectangle="940, 166, 392, 36" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='search' tag='INPUT' /&gt;" Guid="93ec47fd-82cd-45ba-ac28-9d10929a094a" InformativeScreenshot="405fea34cb8ecd1ac5c6b7b7a6871a7f.png" IsResponsive="True" Reference="tbNKna06XUWzxzhExvOKhQ/PGUJSRjbLEWHChDahKAvTA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Target : Expect More. Pay Less.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="2">
+                      <uix:Target CVScreenId="cfdf500e-4e72-4dcd-b1ab-3cf65db566f9" CvTextArea="787, 175, 111, 16" CvTextArgument="Pickup &amp; delivery" CvType="Text" DesignTimeRectangle="775, 166, 145, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-label='pickup and delivery' tag='A' type='' class='styles_ndsLink__GUaai styles_onLight__QKcK7 styles_neverDecorate__heNCW sc-b8685e67-1 sc-b8685e67-3 grtDbE hiqtyH h-hidden-md-down' aaname='Pickup &amp;amp; delivery' matching:aria-label='fuzzy' fuzzylevel:aria-label='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Pickup &amp;amp; delivery' /&gt;" Guid="26ee8ae2-1d31-4244-bf94-9b297594430c" SearchSteps="FuzzySelector, CV" />
+                      <uix:Target CVScreenId="3036f2fe-a42f-486b-849a-5c6810a67812" CvElementArea="392, 163, 40, 40" CvType="Icon" DesignTimeRectangle="393, 164, 40, 40" FullSelectorArgument="&lt;webctrl aria-label='Target home' tag='A' /&gt;" Guid="18d2055c-3fd5-4f41-a796-345ac937df82" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAQwSURBVFhH7ZlPSBRhGMbXW6KUaCGkgnYJBTukhP3xIF66eBE8pNBBgm6CFIjgwYOgQeClDmbkIRE8lOU/IhCCpFBkddd13TW1Na1NV9v1D7ql7RfPF7Os7zszO7O7RoI/eGCZfd73e3Tmm/m+WYs4Zljogf+dk8BHTcIC74yNCf+LF8LX2Sm8bW1S+IxjO+Pj1B4zcQUO9PeLz7dvi6mMDDFhsegKHngDAwO0jSnMB/79W2w8fy4cFy+yUEblyM8XGz09spdZTAX+ubQkHAUFLECsmikslD3NYDhwcG5O2M6fZ4PGK/REb6MYCrxrs4mp9HQ2WKI0de6c2J2epsOqEjXwL69X2LKy2CBUs1eviuX798Xa48dyYkH4vHzvnpgtKWF+Knt2tthfW6PDM3QDh4JBMXPpEmseqcXqarHv89FSxv7qqli8dYvVR2r2yhU5ph66gVcaGlhTRdaUlJhuUf6+PmFNTmb9FH1taqIlh9AMvOd2s2aKcPr2nE5aYhhcr3oTOLiwQEvCaAZ2l5WxRtDk6dNxhVVAD5wl2h9yl5dTexjVwNvv37MmijbfvqX2mPG/fs36K9r58IHaJaqBl+vrWQNo7uZNaj0Erk9MrJmCAil8xjE9XDdusHEg3HHUUA08nZfHGsi/emyMWsMs1tQwvyJ8p4XW2Zy+cIFaJSwwJgQthjBJtNALq0gvNB4c1A/tuVzUygNvdHezQmjp7l1qleCUU6+WtC4PT20t80I/enuplQfG04kWQmuPHlGrJNrDIFLwqrHa3s68kK+jg1p5YG9rKyuE8J9XA5OLerUErxrrXV3MC3kfPKBWHvj7w4esEFp/9oxaJYkI7Hv6lHkhZKGwwFrXMLY8aiTikvjW0sK8kFzkE1jgrZERVigHq66mVkkiJt1CVRXzQlvv3lErD3zg94uJpCRWPJmWRq1h4rqthUJi8swZ5keGg0CAunlg4Cwq4g0sFhEYHKTWMHqhNcPiDL16xfwQ1tBqqAZeaWxkDSDX9evUeohYHs3Oy5fZONC35mZqlagG3h4dZQ0UBYaHqT1mdBc/GssA1cDAWVzMmkBYXprZNGqht7x0XbtG7WE0A2N5RxspsufkGN40qrFrt+su4Hc+fqQlYTQDg08VFayZImtqqvC/fElLooL1AWppP0XzlZW05BC6gbFjxn+TNo0UJuLmmze0lBEYGoq6e7bn5srNqh66gQGu16mzZ1lzKltmpvhSV/d3mz84KCcUPuMYvqN+Kiwxg/PzdHhG1MAAL1Kw8aSDJEp477HrcNBhVTEUGOyvr8vZSweLV7hM0NsohgOD0MGBXH5aT51iA5sV3k1g+YieZjAVWAHvDVylpSyEUeEVwk+Ph7Y1REyBFTC5PHfuGH6hDS/uFvEQV+BIwj8ZPHnCfzLQeMzGQsIC/ytOAh81xy7wH18mrlnXBDdAAAAAAElFTkSuQmCC" SearchSteps="Selector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Search' button" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,56.8" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="54c5b0b7-0ae3-4f49-bc82-f74bf3286d86" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="target.com" ContentHash="V7qF5r9b302zpeon0GiA0g" DesignTimeRectangle="1320, 166, 32, 40" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='styles_searchButton__Mkp1S' aaname='search' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='search' /&gt;" Guid="1bc8a0d0-638c-4fe3-b2e3-0a93148c2390" InformativeScreenshot="d550074759894603c76947f472c9582e.png" Reference="tbNKna06XUWzxzhExvOKhQ/RP8OOc0DG0-c_9ymLz9Qfg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Target : Expect More. Pay Less.' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="3036f2fe-a42f-486b-849a-5c6810a67812" CvTextArea="787, 175, 111, 15" CvTextArgument="Pickup &amp; delivery" CvType="Text" DesignTimeRectangle="775, 166, 145, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-label='pickup and delivery' tag='A' type='' class='styles_ndsLink__GUaai styles_onLight__QKcK7 styles_neverDecorate__heNCW sc-b8685e67-1 sc-b8685e67-3 grtDbE hiqtyH h-hidden-md-down' aaname='Pickup &amp;amp; delivery' matching:aria-label='fuzzy' fuzzylevel:aria-label='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Pickup &amp;amp; delivery' /&gt;" Guid="7406e805-9772-4f10-8e25-219aa07c6a49" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[DataTableItemsFound]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='URL'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;column exact='1' name='Column0' attr='href'&gt;&lt;webctrl tag='div' idx='4' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='6' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='h3' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='picture' idx='1' /&gt;&lt;webctrl tag='img' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,56.8" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="Rows" MaximumResults="5" ScopeIdentifier="54c5b0b7-0ae3-4f49-bc82-f74bf3286d86" Version="V5">
+              <uix:NExtractData.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.target.com/s?searchTerm=Logitech+mouse" DesignTimeRectangle="376, -1033, 1167, 5653" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='pageBodyContainer' tag='DIV' /&gt;" Guid="886ae47d-90e7-4acc-a36d-9c853a845969" InformativeScreenshot="517df5267edccec66c7719b92c54a532.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='&amp;quot;Logitech mouse&amp;quot; : Target' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NExtractData.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NExtractData>
+            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[DataTableItemsFound]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="451.2,406.4" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+              <ui:ForEachRow.Body>
+                <ActivityAction x:TypeArguments="sd2:DataRow">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="sd2:DataRow" Name="CurrentRow" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="449.6,229.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,169.6" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[CurrentRow(&quot;URL&quot;)]" />
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEachRow.Body>
+            </ui:ForEachRow>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1158" BrowserType="Edge" ContentHash="FSfb-ZrwMECXMuSwWYF3SA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAABdklEQVRYR81XiW3DMAzkCB4hI2QEj5IRPII3yGICMkJG6AgtriFRhzo9TNUqBxwQWBRJkRdaFgkiiSxJZE0iWxLZlfiNZ4u3H4IkctJAtyTy2SBskNDJ+wlDT3slQXqJva9VRUv6QZxGCR+r919FErkQR7/lxcehCAZHv3t0YawnoWX3m468qxjPZO9Z12Dj9x3J26GCq/V893tK0ET8fiNi5MKsqD0uoraIr94Y/3NvZAwHNzRa+jMndHB4A7BYdu05BAtmmjBU2rEdjZiS70+eFBqY2eMZTaQgzJstQnx+EcxOr8FLfQWxliVRqcJS6xNzxE7u+TjZ8z4k7u3Atdj/gBNGlry3AbdSedgpIhMym3iF6u1vkcD0FkwX4dy/oRqwk/3PIFIDqgNWBYMmMmwUz30ZqfG817FuaF5I6EWCoFJ2kF9IgEbJwL+7khmCE2/spdQQTKKXfcENDRFF+JKIvzH10+wInRMYVj39HvdxyjD68/wLQYD76iWtHVAAAAAASUVORK5CYII=" InformativeScreenshot="c500a3b9774e6af8b2748f92bce8a4a4.jpg" Reference="tbNKna06XUWzxzhExvOKhQ/smyelhTwZU2cAYqiRyzyHw" Selector="&lt;html app='msedge.exe' title='Target : Expect More. Pay Less.' /&gt;" Url="https://www.target.com/" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

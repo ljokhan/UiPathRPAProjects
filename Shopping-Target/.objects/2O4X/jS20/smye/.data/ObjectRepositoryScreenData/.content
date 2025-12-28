@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="FSfb-ZrwMECXMuSwWYF3SA" Reference="tbNKna06XUWzxzhExvOKhQ/smyelhTwZU2cAYqiRyzyHw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-9, -9, 1938, 1158" BrowserType="Edge" ContentHash="43sv_WEIXEWpq2Cky0_7AA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAABdklEQVRYR81XiW3DMAzkCB4hI2QEj5IRPII3yGICMkJG6AgtriFRhzo9TNUqBxwQWBRJkRdaFgkiiSxJZE0iWxLZlfiNZ4u3H4IkctJAtyTy2SBskNDJ+wlDT3slQXqJva9VRUv6QZxGCR+r919FErkQR7/lxcehCAZHv3t0YawnoWX3m468qxjPZO9Z12Dj9x3J26GCq/V893tK0ET8fiNi5MKsqD0uoraIr94Y/3NvZAwHNzRa+jMndHB4A7BYdu05BAtmmjBU2rEdjZiS70+eFBqY2eMZTaQgzJstQnx+EcxOr8FLfQWxliVRqcJS6xNzxE7u+TjZ8z4k7u3Atdj/gBNGlry3AbdSedgpIhMym3iF6u1vkcD0FkwX4dy/oRqwk/3PIFIDqgNWBYMmMmwUz30ZqfG817FuaF5I6EWCoFJ2kF9IgEbJwL+7khmCE2/spdQQTKKXfcENDRFF+JKIvzH10+wInRMYVj39HvdxyjD68/wLQYD76iWtHVAAAAAASUVORK5CYII=" Reference="tbNKna06XUWzxzhExvOKhQ/smyelhTwZU2cAYqiRyzyHw" Selector="&lt;html app='msedge.exe' title='Target : Expect More. Pay Less.' /&gt;" Url="https://www.target.com/" Version="V2">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="c500a3b9774e6af8b2748f92bce8a4a4.jpg" xmlns="">07LXbVKQWs0mgD4CbXULreg</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>
