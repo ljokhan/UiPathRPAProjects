@@ -45,6 +45,17 @@
       <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
       <x:String>UiPath.Platform.ResourceHandling</x:String>
       <x:String>System.Numerics</x:String>
+      <x:String>UiPath.GSuite.Activities.Drive.Enums</x:String>
+      <x:String>UiPath.GSuite.Drive.Models</x:String>
+      <x:String>UiPath.GSuite.Activities.Models</x:String>
+      <x:String>UiPath.Shared.Activities.Utils</x:String>
+      <x:String>UiPath.GSuite.Activities</x:String>
+      <x:String>UiPath.Shared.Activities.ConnectionService.Contracts</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models.FilterBuilder</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Helpers.TypeDetailsCustomization</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Activities</x:String>
+      <x:String>UiPath.Platform.Activities</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -107,9 +118,12 @@
       <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite</AssemblyReference>
+      <AssemblyReference>UiPath.IntegrationService.Activities.Runtime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="772,807.2000000000002" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="710,807.2000000000002" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Default="Logitech mouse" Name="ItemToShop" />
       <Variable x:TypeArguments="sd2:DataTable" Default="[New System.Data.DataTable]" Name="DataTableItemsFound" />
@@ -133,7 +147,7 @@
             </sap:WorkflowViewStateService.ViewState>
             <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="[UiPath.UIAutomationNext.Enums.NClickMode.None]" ClipboardMode="Never" DelayBefore="3" DisplayName="Enter item to shop for" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,60.8" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="54c5b0b7-0ae3-4f49-bc82-f74bf3286d86" Text="[ItemToShop]" Version="V5">
               <uix:NTypeInto.Target>
-                <uix:TargetAnchorable BrowserURL="target.com" CVScreenId="cfdf500e-4e72-4dcd-b1ab-3cf65db566f9" ContentHash="BXc6apEqfky34cTfmPpHfg" CvElementArea="943, 163, 405, 39" CvType="InputBox" DesignTimeRectangle="940, 166, 392, 36" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='search' tag='INPUT' /&gt;" Guid="93ec47fd-82cd-45ba-ac28-9d10929a094a" InformativeScreenshot="405fea34cb8ecd1ac5c6b7b7a6871a7f.png" IsResponsive="True" Reference="tbNKna06XUWzxzhExvOKhQ/PGUJSRjbLEWHChDahKAvTA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Target : Expect More. Pay Less.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                <uix:TargetAnchorable BrowserURL="target.com" CVScreenId="cfdf500e-4e72-4dcd-b1ab-3cf65db566f9" ContentHash="BXc6apEqfky34cTfmPpHfg" CvElementArea="943, 163, 405, 39" CvType="InputBox" DesignTimeRectangle="940, 166, 392, 36" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='search' tag='INPUT' /&gt;" Guid="93ec47fd-82cd-45ba-ac28-9d10929a094a" InformativeScreenshot="405fea34cb8ecd1ac5c6b7b7a6871a7f.png" IsResponsive="True" Reference="tbNKna06XUWzxzhExvOKhQ/PGUJSRjbLEWHChDahKAvTA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Target : Expect More. Pay Less.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]">
                   <uix:TargetAnchorable.Anchors>
                     <scg:List x:TypeArguments="uix:ITarget" Capacity="2">
                       <uix:Target CVScreenId="cfdf500e-4e72-4dcd-b1ab-3cf65db566f9" CvTextArea="787, 175, 111, 16" CvTextArgument="Pickup &amp; delivery" CvType="Text" DesignTimeRectangle="775, 166, 145, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-label='pickup and delivery' tag='A' type='' class='styles_ndsLink__GUaai styles_onLight__QKcK7 styles_neverDecorate__heNCW sc-b8685e67-1 sc-b8685e67-3 grtDbE hiqtyH h-hidden-md-down' aaname='Pickup &amp;amp; delivery' matching:aria-label='fuzzy' fuzzylevel:aria-label='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Pickup &amp;amp; delivery' /&gt;" Guid="26ee8ae2-1d31-4244-bf94-9b297594430c" SearchSteps="FuzzySelector, CV" />
@@ -142,6 +156,13 @@
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
               </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" ExpectedText="[Nothing]" Mode="Appears" Retry="True">
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -151,7 +172,7 @@
             </uix:NTypeInto>
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Search' button" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,60.8" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="54c5b0b7-0ae3-4f49-bc82-f74bf3286d86" Version="V5">
               <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="target.com" ContentHash="V7qF5r9b302zpeon0GiA0g" DesignTimeRectangle="1320, 166, 32, 40" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='styles_searchButton__Mkp1S' aaname='search' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='search' /&gt;" Guid="1bc8a0d0-638c-4fe3-b2e3-0a93148c2390" InformativeScreenshot="d550074759894603c76947f472c9582e.png" Reference="tbNKna06XUWzxzhExvOKhQ/RP8OOc0DG0-c_9ymLz9Qfg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Target : Expect More. Pay Less.' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                <uix:TargetAnchorable BrowserURL="target.com" ContentHash="aRVdSmvwTka2roeDgI8Zdw" DesignTimeRectangle="1320, 166, 32, 40" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='styles_searchButton__Mkp1S' aaname='search' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='search' /&gt;" Guid="1bc8a0d0-638c-4fe3-b2e3-0a93148c2390" InformativeScreenshot="d550074759894603c76947f472c9582e.png" Reference="tbNKna06XUWzxzhExvOKhQ/RP8OOc0DG0-c_9ymLz9Qfg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Target : Expect More. Pay Less.' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]">
                   <uix:TargetAnchorable.Anchors>
                     <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="3036f2fe-a42f-486b-849a-5c6810a67812" CvTextArea="787, 175, 111, 15" CvTextArgument="Pickup &amp; delivery" CvType="Text" DesignTimeRectangle="775, 166, 145, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-label='pickup and delivery' tag='A' type='' class='styles_ndsLink__GUaai styles_onLight__QKcK7 styles_neverDecorate__heNCW sc-b8685e67-1 sc-b8685e67-3 grtDbE hiqtyH h-hidden-md-down' aaname='Pickup &amp;amp; delivery' matching:aria-label='fuzzy' fuzzylevel:aria-label='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Pickup &amp;amp; delivery' /&gt;" Guid="7406e805-9772-4f10-8e25-219aa07c6a49" SearchSteps="FuzzySelector, CV" />
@@ -159,6 +180,13 @@
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="Verification target" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -166,9 +194,9 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NClick>
-            <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[DataTableItemsFound]" DisplayName="Extract Data Table - all URLS" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='URL'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;column exact='1' name='Column0' attr='href'&gt;&lt;webctrl tag='div' idx='4' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='6' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='h3' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='picture' idx='1' /&gt;&lt;webctrl tag='img' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,60.8" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="Rows" MaximumResults="5" ScopeIdentifier="54c5b0b7-0ae3-4f49-bc82-f74bf3286d86" Version="V5">
+            <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[DataTableItemsFound]" DisplayName="Extract Data Table - all URLS" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='URL'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;column exact='1' name='Column0' attr='href'&gt;&lt;webctrl tag='div' idx='4' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='6' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='h3' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='picture' idx='1' /&gt;&lt;webctrl tag='img' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,60.8" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="Rows" MaximumResults="50" ScopeIdentifier="54c5b0b7-0ae3-4f49-bc82-f74bf3286d86" Version="V5">
               <uix:NExtractData.Target>
-                <uix:TargetAnchorable BrowserURL="https://www.target.com/s?searchTerm=Logitech+mouse" DesignTimeRectangle="376, -1033, 1167, 5653" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='pageBodyContainer' tag='DIV' /&gt;" Guid="886ae47d-90e7-4acc-a36d-9c853a845969" InformativeScreenshot="517df5267edccec66c7719b92c54a532.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='&amp;quot;Logitech mouse&amp;quot; : Target' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                <uix:TargetAnchorable BrowserURL="https://www.target.com/s?searchTerm=Logitech+mouse" DesignTimeRectangle="376, -1033, 1167, 5653" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='pageBodyContainer' tag='DIV' /&gt;" Guid="886ae47d-90e7-4acc-a36d-9c853a845969" InformativeScreenshot="517df5267edccec66c7719b92c54a532.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='&amp;quot;Logitech mouse&amp;quot; : Target' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]" />
               </uix:NExtractData.Target>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -228,19 +256,19 @@
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="sd2:DataRow" Name="CurrentRow" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="484.8,836" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="484.8,860" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Edge Target.com - Open product URLs" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="451.2,772" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" IsIncognito="False" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Always]" ScopeGuid="65b28741-5ac6-4866-a803-3bbd20f79590" Version="V2" WindowResize="Maximize">
+            <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Edge Target.com - Open product URLs" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="451.2,796" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" IsIncognito="False" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Always]" ScopeGuid="65b28741-5ac6-4866-a803-3bbd20f79590" Version="V2" WindowResize="Maximize">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,578.4" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,598.4" sap2010:WorkflowViewState.IdRef="Sequence_4">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:String" Name="PriceString" />
                       <Variable x:TypeArguments="x:Int32" Name="PositionOfBlank" />
@@ -277,7 +305,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </Assign>
-                    <uix:NGetText DisplayName="Get Price Details" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,56.8" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="65b28741-5ac6-4866-a803-3bbd20f79590" TextString="[PriceDetails]" Version="V5">
+                    <uix:NGetText DisplayName="Get Price Details" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,60.8" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="65b28741-5ac6-4866-a803-3bbd20f79590" TextString="[PriceDetails]" Version="V5">
                       <uix:NGetText.Target>
                         <uix:TargetAnchorable BrowserURL="target.com/p/logitech-m317c-mouse-cotton-candy/-/A-88374096" ContentHash="hVSw0YjdOUuKcWGIj0Gu5A" DesignTimeRectangle="980, 409, 400, 56" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' parentid='above-the-fold-information' tag='DIV' /&gt;" Guid="fcc6d070-0564-4d73-8d60-7131732832d3" InformativeScreenshot="2447414bdb7312e905414003825c1014.png" Reference="tbNKna06XUWzxzhExvOKhQ/td0TRJwV4EST1CNMPTZO-Q" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Logitech M317C Mouse - Cotton Candy : Target' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                       </uix:NGetText.Target>
@@ -288,7 +316,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </uix:NGetText>
-                    <Assign DisplayName="Data Table - Save Price Details" sap:VirtualizedContainerService.HintSize="416,56.8" sap2010:WorkflowViewState.IdRef="Assign_3">
+                    <Assign DisplayName="Data Table - Save Price Details" sap:VirtualizedContainerService.HintSize="416,60.8" sap2010:WorkflowViewState.IdRef="Assign_3">
                       <Assign.To>
                         <OutArgument x:TypeArguments="x:Object">[CurrentRow("PriceDetails")]</OutArgument>
                       </Assign.To>
@@ -302,7 +330,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </Assign>
-                    <Assign DisplayName="Calculate position of blank space" sap:VirtualizedContainerService.HintSize="416,56.8" sap2010:WorkflowViewState.IdRef="Assign_4">
+                    <Assign DisplayName="Calculate position of blank space" sap:VirtualizedContainerService.HintSize="416,60.8" sap2010:WorkflowViewState.IdRef="Assign_4">
                       <Assign.To>
                         <OutArgument x:TypeArguments="x:Int32">[PositionOfBlank]</OutArgument>
                       </Assign.To>
@@ -316,7 +344,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </Assign>
-                    <Assign DisplayName="Calculate price (string)" sap:VirtualizedContainerService.HintSize="416,56.8" sap2010:WorkflowViewState.IdRef="Assign_5">
+                    <Assign DisplayName="Calculate price (string)" sap:VirtualizedContainerService.HintSize="416,60.8" sap2010:WorkflowViewState.IdRef="Assign_5">
                       <Assign.To>
                         <OutArgument x:TypeArguments="x:String">[PriceString]</OutArgument>
                       </Assign.To>
@@ -330,12 +358,12 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </Assign>
-                    <Assign DisplayName="Data Table - Save Price (numeric)" sap:VirtualizedContainerService.HintSize="416,165.6" sap2010:WorkflowViewState.IdRef="Assign_6">
+                    <Assign DisplayName="Data Table - Save Price (numeric)" sap:VirtualizedContainerService.HintSize="416,169.6" sap2010:WorkflowViewState.IdRef="Assign_6">
                       <Assign.To>
                         <OutArgument x:TypeArguments="x:Object">[CurrentRow("Price")]</OutArgument>
                       </Assign.To>
                       <Assign.Value>
-                        <InArgument x:TypeArguments="x:Double">[CDbl(PriceString)]</InArgument>
+                        <InArgument x:TypeArguments="x:Double">[If(IsNumeric(PriceString), CDbl(PriceString), nothing)]</InArgument>
                       </Assign.Value>
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">

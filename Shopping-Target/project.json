@@ -4,6 +4,8 @@
   "description": "Shops for an item on the Target website",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.GSuite.Activities": "[3.5.11]",
+    "UiPath.IntegrationService.Activities": "[1.21.0]",
     "UiPath.System.Activities": "[25.10.4]",
     "UiPath.UIAutomation.Activities": "[25.10.22]"
   },
