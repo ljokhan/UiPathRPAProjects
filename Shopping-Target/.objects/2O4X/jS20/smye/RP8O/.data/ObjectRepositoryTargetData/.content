@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="V7qF5r9b302zpeon0GiA0g" Reference="tbNKna06XUWzxzhExvOKhQ/RP8OOc0DG0-c_9ymLz9Qfg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="aRVdSmvwTka2roeDgI8Zdw" Reference="tbNKna06XUWzxzhExvOKhQ/RP8OOc0DG0-c_9ymLz9Qfg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="target.com" DesignTimeRectangle="1320, 166, 32, 40" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='styles_searchButton__Mkp1S' aaname='search' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='search' /&gt;" Guid="1bc8a0d0-638c-4fe3-b2e3-0a93148c2390" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Target : Expect More. Pay Less.' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="target.com" DesignTimeRectangle="1320, 166, 32, 40" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='styles_searchButton__Mkp1S' aaname='search' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='search' /&gt;" Guid="1bc8a0d0-638c-4fe3-b2e3-0a93148c2390" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Target : Expect More. Pay Less.' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]">
       <TargetAnchorable.Anchors>
-        <scg:List x:TypeArguments="ITarget" Capacity="4">
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
           <Target CVScreenId="3036f2fe-a42f-486b-849a-5c6810a67812" CvTextArea="787, 175, 111, 15" CvTextArgument="Pickup &amp; delivery" CvType="Text" DesignTimeRectangle="775, 166, 145, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-label='pickup and delivery' tag='A' type='' class='styles_ndsLink__GUaai styles_onLight__QKcK7 styles_neverDecorate__heNCW sc-b8685e67-1 sc-b8685e67-3 grtDbE hiqtyH h-hidden-md-down' aaname='Pickup &amp;amp; delivery' matching:aria-label='fuzzy' fuzzylevel:aria-label='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Pickup &amp;amp; delivery' /&gt;" Guid="7406e805-9772-4f10-8e25-219aa07c6a49" SearchSteps="FuzzySelector, CV" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="d550074759894603c76947f472c9582e.png" xmlns="">0Ajs10phiIE2A97q4I7Q5bw</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="d550074759894603c76947f472c9582e.png" xmlns="">0igpn66cVVUCErOHW19Zyvg</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>
