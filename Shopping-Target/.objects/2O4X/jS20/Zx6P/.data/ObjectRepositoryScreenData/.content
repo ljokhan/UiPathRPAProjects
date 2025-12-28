@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="2ppg5fFC006_xk0wAnVbrA" Reference="tbNKna06XUWzxzhExvOKhQ/Zx6PNenCuk6uT1KK9q287g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-9, -9, 1938, 1158" BrowserType="Edge" ContentHash="xRda7Rad30WdCqgNV8ixpg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAABdklEQVRYR81XiW3DMAzkCB4hI2QEj5IRPII3yGICMkJG6AgtriFRhzo9TNUqBxwQWBRJkRdaFgkiiSxJZE0iWxLZlfiNZ4u3H4IkctJAtyTy2SBskNDJ+wlDT3slQXqJva9VRUv6QZxGCR+r919FErkQR7/lxcehCAZHv3t0YawnoWX3m468qxjPZO9Z12Dj9x3J26GCq/V893tK0ET8fiNi5MKsqD0uoraIr94Y/3NvZAwHNzRa+jMndHB4A7BYdu05BAtmmjBU2rEdjZiS70+eFBqY2eMZTaQgzJstQnx+EcxOr8FLfQWxliVRqcJS6xNzxE7u+TjZ8z4k7u3Atdj/gBNGlry3AbdSedgpIhMym3iF6u1vkcD0FkwX4dy/oRqwk/3PIFIDqgNWBYMmMmwUz30ZqfG817FuaF5I6EWCoFJ2kF9IgEbJwL+7khmCE2/spdQQTKKXfcENDRFF+JKIvzH10+wInRMYVj39HvdxyjD68/wLQYD76iWtHVAAAAAASUVORK5CYII=" Reference="tbNKna06XUWzxzhExvOKhQ/Zx6PNenCuk6uT1KK9q287g" Selector="&lt;html app='msedge.exe' title='&amp;quot;Logitech mouse&amp;quot; : Target' /&gt;" Url="[CurrentRow(&quot;URL&quot;).ToString]" Version="V2">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="3f1cab79214b0f93e8fed26773bc7e75.jpg" xmlns="">0PI0S1jGH-UaUaW909YE5Iw</imageRef>
+    </TargetApp>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1" />
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

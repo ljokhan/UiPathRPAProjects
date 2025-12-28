@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="sy-F4X0cR0mTX5se-QFmkg" Reference="tbNKna06XUWzxzhExvOKhQ/Na_BvIxlwEetrKf4zORGBA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="target.com/s" DesignTimeRectangle="980, 337, 550, 48" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='pdp-product-title-id' tag='H1' /&gt;" Guid="485fde08-32d6-4c8b-93db-1b4d7ecb7114" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Logitech M317 Mouse - Blue Aurora: Wireless, USB-A Connection, Soft-Touch Grips : Target' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="7791d848d660bd96eeaf8e6ef6ca2325.png" xmlns="">0q1LdS_-ZJEaaxFx0YmB7ow</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
