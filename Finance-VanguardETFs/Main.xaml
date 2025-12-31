@@ -109,7 +109,7 @@
       <AssemblyReference>System.Memory.Data</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="892,925.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="779,925.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Default="https://investor.vanguard.com/investment-products/list/etfs?filters=open'" Name="URLVanguardETFs" />
       <Variable x:TypeArguments="sd2:DataTable" Default="[New System.Data.DataTable]" Name="DataTableVanguardETFs" />
@@ -190,7 +190,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:DatabaseConnect>
-    <ui:ExecuteQuery ContinueOnError="{x:Null}" DataTable="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Database - Truncate table" ExistingDbConnection="[DBConnection]" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="ExecuteQuery_1" Sql="Truncate table [dbo].[Financials_VanguardETFs]">
+    <ui:ExecuteQuery ContinueOnError="{x:Null}" DataTable="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Database - Truncate table" ExistingDbConnection="[DBConnection]" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="ExecuteQuery_1" Sql="Truncate table [dbo].[Financials_AllVanguardETFs]">
       <ui:ExecuteQuery.Parameters>
         <scg:Dictionary x:TypeArguments="x:String, Argument" />
       </ui:ExecuteQuery.Parameters>
@@ -201,7 +201,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:ExecuteQuery>
-    <ui:InsertDataTable AffectedRecords="{x:Null}" ContinueOnError="{x:Null}" DataTable="[DataTableVanguardETFs]" DisplayName="Database - Insert Vanguard ETF data" ExistingDbConnection="[DBConnection]" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="InsertDataTable_2" TableName="%[dbo].[Financials_VanguardETFs]">
+    <ui:InsertDataTable AffectedRecords="{x:Null}" ContinueOnError="{x:Null}" DataTable="[DataTableVanguardETFs]" DisplayName="Database - Insert Vanguard ETF data" ExistingDbConnection="[DBConnection]" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="InsertDataTable_2" TableName="%[dbo].[Financials_AllVanguardETFs]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
