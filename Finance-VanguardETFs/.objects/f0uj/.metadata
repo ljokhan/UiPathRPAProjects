@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge Vanguard ETFs List  Vanguard",
+  "Type": "App",
+  "Id": "f0ujGobOhkWp-uO-AxjZyw",
+  "Reference": "NYjCUJUq5Ei9_UVG-FX18Q/f0ujGobOhkWp-uO-AxjZyw",
+  "Created": "2025-12-30T23:30:44.138321Z",
+  "Updated": "2025-12-30T23:30:44.138321Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
