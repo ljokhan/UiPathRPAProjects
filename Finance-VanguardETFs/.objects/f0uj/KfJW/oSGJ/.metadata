@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Vanguard ETFs List  Vanguard",
+  "Type": "Screen",
+  "Id": "oSGJx9HPck6rbi4Wj-p_GQ",
+  "Reference": "NYjCUJUq5Ei9_UVG-FX18Q/oSGJx9HPck6rbi4Wj-p_GQ",
+  "ParentRef": "NYjCUJUq5Ei9_UVG-FX18Q/KfJWHtNorUqA_JiPEFmw8Q",
+  "Created": "2025-12-30T23:30:44.1780564Z",
+  "Updated": "2025-12-30T23:30:44.1780564Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
