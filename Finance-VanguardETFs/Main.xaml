@@ -106,26 +106,28 @@
       <AssemblyReference>UiPath.Azure.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Database</AssemblyReference>
       <AssemblyReference>UiPath.Database.Activities</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="885.6,687.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="892,925.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Default="https://investor.vanguard.com/investment-products/list/etfs?filters=open'" Name="URLVanguardETFs" />
       <Variable x:TypeArguments="sd2:DataTable" Default="[New System.Data.DataTable]" Name="DataTableVanguardETFs" />
       <Variable x:TypeArguments="x:String" Name="TESTING" />
+      <Variable x:TypeArguments="ui:DatabaseConnection" Name="DBConnection" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge - Open Vanguard ETFs List URL" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="451.2,318.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="7aa89136-1f6f-4e42-9ee8-f85eba4ca327" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge - Open Vanguard ETFs List URL" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,319" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="7aa89136-1f6f-4e42-9ee8-f85eba4ca327" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,116" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,116" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -164,7 +166,7 @@
         </uix:TargetApp>
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
-    <ui:OutputDataTable DataTable="[DataTableVanguardETFs]" DisplayName="Data Table - Convert to Text" sap:VirtualizedContainerService.HintSize="451.2,56.8" sap2010:WorkflowViewState.IdRef="OutputDataTable_2" Text="[TESTING]">
+    <ui:OutputDataTable DataTable="[DataTableVanguardETFs]" DisplayName="Data Table - Convert to Text" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="OutputDataTable_2" Text="[TESTING]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -172,7 +174,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:OutputDataTable>
-    <ui:WriteTextFile FileName="{x:Null}" Output="{x:Null}" DisplayName="Text File - Export all ETFs" File="[LocalResource.FromPath(&quot;C:\\Users\\ljokh\\OneDrive\\Desktop\\TESTING.TXT&quot;)]" sap:VirtualizedContainerService.HintSize="451.2,56.8" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[TESTING]">
+    <ui:WriteTextFile FileName="{x:Null}" Output="{x:Null}" DisplayName="Text File - Export all ETFs" File="[LocalResource.FromPath(&quot;C:\\Users\\ljokh\\OneDrive\\Desktop\\TESTING.TXT&quot;)]" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[TESTING]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -180,16 +182,43 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:WriteTextFile>
-    <ui:ExecuteNonQuery AffectedRecords="{x:Null}" ContinueOnError="{x:Null}" ExistingDbConnection="{x:Null}" ConnectionString="Data Source=financial-dw.database.windows.net;Initial Catalog=free-sql-db-financial-dw;Persist Security Info=True;User ID=ljokhan;Password=Altima2013#;Encrypt=False" DisplayName="Azure DB - Insert Vanguard ETF data" sap:VirtualizedContainerService.HintSize="451.2,142.4" sap2010:WorkflowViewState.IdRef="ExecuteNonQuery_1" ProviderName="Microsoft.Data.SqlClient" Sql="TRUNCATE TABLE [dbo].[Financials_VanguardETFs]&#xA;&#xA;INSERT INTO [dbo].[Financials_VanguardETFs]&#xA;([ETF], [ETFDescription], [URL], [AssetClass],&#x9;[RiskCode], [ExpenseRatio],&#x9;[ReturnsYTD], [Returns1YR], [Returns5YR], [Returns10YR], [ReturnsSinceInception],&#xA; [InceptionDate], [InvestmentMin],[CurrentPrice])&#xA;VALUES ('Test', 'Test', 'Test', 'Test', 1, 'Test', 'Test', 'Test', 'Test', 'Test', 'Test', 'Test', 'Test', 'Test')" TimeoutMS="60000">
-      <ui:ExecuteNonQuery.Parameters>
-        <scg:Dictionary x:TypeArguments="x:String, Argument" />
-      </ui:ExecuteNonQuery.Parameters>
+    <ui:DatabaseConnect DisplayName="Database - Connect" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="DatabaseConnect_1" ProviderName="Microsoft.Data.SqlClient" ConnectionString="Data Source=financial-dw.database.windows.net;Initial Catalog=free-sql-db-financial-dw;Persist Security Info=True;User ID=ljokhan;Password=Altima2013#;Encrypt=False" DatabaseConnection="[DBConnection]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-    </ui:ExecuteNonQuery>
+    </ui:DatabaseConnect>
+    <ui:ExecuteQuery ContinueOnError="{x:Null}" DataTable="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Database - Truncate table" ExistingDbConnection="[DBConnection]" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="ExecuteQuery_1" Sql="Truncate table [dbo].[Financials_VanguardETFs]">
+      <ui:ExecuteQuery.Parameters>
+        <scg:Dictionary x:TypeArguments="x:String, Argument" />
+      </ui:ExecuteQuery.Parameters>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:ExecuteQuery>
+    <ui:InsertDataTable AffectedRecords="{x:Null}" ContinueOnError="{x:Null}" DataTable="[DataTableVanguardETFs]" DisplayName="Database - Insert Vanguard ETF data" ExistingDbConnection="[DBConnection]" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="InsertDataTable_2" TableName="%[dbo].[Financials_VanguardETFs]">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:InsertDataTable>
+    <ui:ExecuteQuery ContinueOnError="{x:Null}" DataTable="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Database - Cleanup Data" ExistingDbConnection="[DBConnection]" sap:VirtualizedContainerService.HintSize="452,48" sap2010:WorkflowViewState.IdRef="ExecuteQuery_2" Sql="%[dbo].[CleanupData]">
+      <ui:ExecuteQuery.Parameters>
+        <scg:Dictionary x:TypeArguments="x:String, Argument" />
+      </ui:ExecuteQuery.Parameters>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:ExecuteQuery>
   </Sequence>
 </Activity>
