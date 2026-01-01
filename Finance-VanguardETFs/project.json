@@ -6,6 +6,8 @@
   "dependencies": {
     "UiPath.Azure.Activities": "[1.6.3]",
     "UiPath.Database.Activities": "[2.0.0]",
+    "UiPath.GSuite.Activities": "[3.5.11]",
+    "UiPath.Mail.Activities": "[2.5.10]",
     "UiPath.System.Activities": "[25.10.4]",
     "UiPath.UIAutomation.Activities": "[25.10.22]"
   },
