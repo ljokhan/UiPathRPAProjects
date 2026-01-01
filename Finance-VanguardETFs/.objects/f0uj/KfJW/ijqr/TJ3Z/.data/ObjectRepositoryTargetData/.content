@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="S5SsXT4vtk6upcSwokpTlg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="investor.vanguard.com/my-account/log-on" CVScreenId="739949c8-76ab-460f-93ca-40300aba05fb" CvElementArea="1408, 297, 205, 73" CvTextArea="1483, 325, 53, 21" CvTextArgument="Log in" CvType="Button" DesignTimeRectangle="1486, 327, 49, 12" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='cmp-button__text' parentid='logonButton' tag='SPAN' /&gt;" Guid="0c94a661-a9bc-4e5a-9aa0-eab7a66c5b63" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Log in to view your accounts | Vanguard' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="739949c8-76ab-460f-93ca-40300aba05fb" CvTextArea="312, 318, 498, 29" CvTextArgument="Log in to view your Vanguard accounts" CvType="Text" DesignTimeRectangle="313, 312, 636, 32" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='cmp-richtext--fz-h4 cmp-richtext--ff-mark cmp-richtext--fw-heavy' aaname='Log in to view your Vanguard accounts' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Log in to view your Vanguard accounts' /&gt;" Guid="1c7d02b1-a362-495b-a49a-863dd0c75c0b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="abeaedc89312c4fc6115081ddc9a0814.png" xmlns="">0Z9p2KfkANEiT9m2gTMgKeg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

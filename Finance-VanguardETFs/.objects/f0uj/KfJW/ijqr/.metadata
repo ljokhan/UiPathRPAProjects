@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Log in to view your accounts  Vanguard",
+  "Type": "Screen",
+  "Id": "ijqrXbZ3aUOwQBxcdOBi_Q",
+  "Reference": "NYjCUJUq5Ei9_UVG-FX18Q/ijqrXbZ3aUOwQBxcdOBi_Q",
+  "ParentRef": "NYjCUJUq5Ei9_UVG-FX18Q/KfJWHtNorUqA_JiPEFmw8Q",
+  "Created": "2026-01-01T01:54:05.4955957Z",
+  "Updated": "2026-01-01T01:54:05.4955957Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

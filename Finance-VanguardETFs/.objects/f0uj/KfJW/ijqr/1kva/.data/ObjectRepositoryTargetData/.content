@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="BqrgLP--cESBsYh7GhJLMw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="holdings.web.vanguard.com" CVScreenId="5988e281-03ab-462d-8574-acaccad797db" CvTextArea="312, 573, 117, 16" CvTextArgument="Expand accounts" CvType="Text" DesignTimeRectangle="313, 569, 115, 20" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Expand accounts ' tag='BUTTON' type='button' /&gt;" Guid="68a1bb20-3f64-4154-8246-4ee89527bd44" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Holdings | Vanguard' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5988e281-03ab-462d-8574-acaccad797db" CvTextArea="443, 573, 125, 16" CvTextArgument="Collapse accounts" CvType="Text" DesignTimeRectangle="444, 569, 123, 20" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname=' Collapse accounts ' tag='BUTTON' type='button' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Collapse accounts' /&gt;" Guid="dca74e25-ad1e-4205-a709-66ea7aa3e9dc" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fbe8fa371e638cf6ed993097705be6d0.png" xmlns="">0pK0SatUcp0CHrseuNCuxaA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

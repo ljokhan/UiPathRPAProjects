@@ -1,0 +1,160 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:sd2="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="919,925.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd2:DataTable" Name="IndexDataTable" />
+      <Variable x:TypeArguments="x:String" Name="IndexName" />
+      <Variable x:TypeArguments="x:String" Name="UpOrDown" />
+      <Variable x:TypeArguments="x:String" Name="myParentClass" />
+      <Variable x:TypeArguments="x:String" Name="IndexValue" />
+      <Variable x:TypeArguments="sd2:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: Balances | Vanguard" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,737" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="232acc23-fd9b-47b5-b3e9-9146188479c7" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,491" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="testing" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[ExtractDataTable]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='MYAccounts'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column1' Name='MYAccounts Url'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;true&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;column exact='1' name='Column0' attr='fulltext' name2='Column1' attr2='href'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,143" sap2010:WorkflowViewState.IdRef="NExtractData_2" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="232acc23-fd9b-47b5-b3e9-9146188479c7" Version="V5">
+              <uix:NExtractData.Target>
+                <uix:TargetAnchorable BrowserURL="https://balances.web.vanguard.com/" DesignTimeRectangle="313, 642, 1296, 117" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;vg-vgn-nav&amp;gt;app-root&amp;gt;main&amp;gt;app-base&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;app-balances&amp;gt;div&amp;gt;c11n-accordion&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;div' tag='DIV' /&gt;" Guid="7b351c40-f7b2-4cad-b299-6e8deb6d5881" InformativeScreenshot="09c9e5ba4fe43fd79f583a4aace0f260.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Balances | Vanguard' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NExtractData.Target>
+            </uix:NExtractData>
+            <ui:OutputDataTable DataTable="[ExtractDataTable]" DisplayName="Output Data Table as Text" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="OutputDataTable_1" Text="[testing]" />
+            <ui:WriteTextFile FileName="{x:Null}" Output="{x:Null}" DisplayName="Write Text File" File="[LocalResource.FromPath(&quot;C:\\Users\\ljokh\\OneDrive\\Desktop\\TESTING.TXT&quot;)]" sap:VirtualizedContainerService.HintSize="416,171" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[testing]" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1168" BrowserType="Edge" IconBase64="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" InformativeScreenshot="783ced7ea603a2e5d5bd8f76e8b7856b.jpg" Selector="&lt;html app='msedge.exe' title='Balances | Vanguard' /&gt;" Url="https://balances.web.vanguard.com/" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

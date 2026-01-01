@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QoZify6-EEirLyKNXMRTaA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="balances.web.vanguard.com" CVScreenId="3a69240d-d5a5-4265-8a27-699004b1a092" CvTextArea="311, 787, 250, 20" CvTextArgument="Total Vanguard assets" CvType="Text" DesignTimeRectangle="313, 779, 255, 33" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Total Vanguard assets' parentid='app-main-content' tag='SPAN' /&gt;" Guid="1d4edde5-2955-47d4-8e50-ee3bed825581" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Balances | Vanguard' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="89c41635a144533d04cb5003795ce583.png" xmlns="">0mBq0ZzTnrU6hpeYQ5Tewvw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

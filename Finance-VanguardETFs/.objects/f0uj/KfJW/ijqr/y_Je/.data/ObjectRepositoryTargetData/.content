@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="sSKs8qK1KESsFJlaUkwzGw" Reference="NYjCUJUq5Ei9_UVG-FX18Q/y_JetnOvMk6pVxyKFdJaBQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="login.vanguard.com/login" CVScreenId="3e75bc0c-bbcf-4483-98c7-e9e69025068b" CvElementArea="888, 572, 138, 71" CvTextArea="931, 599, 52, 20" CvTextArgument="Log in" CvType="Button" DesignTimeRectangle="932, 602, 50, 12" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='Log in' parentid='username-password-submit-btn-1' tag='SPAN' type='' class='c11n-button__label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Log in' /&gt;" Guid="b7846387-4453-4bbb-9706-3e821d7037cb" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Log on to vanguard.com - personal investors' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="3e75bc0c-bbcf-4483-98c7-e9e69025068b" CvElementArea="888, 572, 138, 71" CvTextArea="931, 599, 52, 20" CvTextArgument="Log in" CvType="Button" DesignTimeRectangle="893, 576, 128, 64" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='username-password-submit-btn-1' tag='BUTTON' type='submit' class='c11n-button c11n-button--medium c11n-button--primary' aaname='Log in' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Log in' /&gt;" Guid="9492341c-ed13-44a6-8136-be94a2c8225e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3f83f3b5667aab004780c8396befbfad.png" xmlns="">0zCyRtzak1EyKySikrbVmIw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2YxU-W94zkGew-wM49fglQ" Reference="NYjCUJUq5Ei9_UVG-FX18Q/2pdD7tjs-0CDrb2elqlM_g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dashboard.web.vanguard.com" CVScreenId="df0d34a1-a662-4314-8642-12d6a4db2aab" CvTextArea="312, 390, 91, 15" CvTextArgument="Dashboard" CvType="Text" DesignTimeRectangle="313, 373, 90, 48" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='GYD-SECONDARY-NAV-WIDGET' /&gt;&lt;webctrl shadowhostid='' tag='HC-PAGE-NAVIGATION' /&gt;&lt;webctrl shadowhostid='' tag='A' /&gt;" Guid="6f709771-5549-4561-91b2-b21138b2c2f6" ScopeSelectorArgument="&lt;html app='msedge.exe' title='My dashboard | Vanguard' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1c12879edf2aaad965545ac065cebb5b.png" xmlns="">0tkr_VkzrxkGgPvI_Ijc0wg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

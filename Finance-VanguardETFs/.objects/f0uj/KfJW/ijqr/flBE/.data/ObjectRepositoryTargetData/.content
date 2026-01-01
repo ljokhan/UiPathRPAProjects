@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PfyyHe0YcUC5pT_XPiP2WQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="balances.web.vanguard.com" CVScreenId="8c4d381c-5709-45cb-a292-ee3efdcb3799" CvTextArea="437, 247, 64, 13" CvTextArgument="Accounts" CvType="Text" DesignTimeRectangle="438, 244, 63, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='VG-VGN-NAV' /&gt;&lt;webctrl shadowhostid='' tag='VG-VGN-HEADER' /&gt;&lt;webctrl aaname='Accounts' shadowhostid='' tag='SPAN' /&gt;" Guid="924c23b1-ada9-4ce5-92b4-5fe72da2eb48" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Balances | Vanguard' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8c4d381c-5709-45cb-a292-ee3efdcb3799" CvTextArea="437, 291, 85, 13" CvTextArgument="Investments" CvType="Text" DesignTimeRectangle="438, 288, 84, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='VG-VGN-NAV' /&gt;&lt;webctrl shadowhostid='' tag='VG-VGN-HEADER' matching:shadowhostid='fuzzy' fuzzylevel:shadowhostid='0.0' /&gt;&lt;webctrl aaname='Investments' shadowhostid='' tag='SPAN' type='' class='c11n-link__text' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:shadowhostid='fuzzy' fuzzylevel:shadowhostid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Investments' /&gt;" Guid="b8111427-0c39-47d6-84de-7dee474715ad" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2d4122de8b33c74efaa45a66dab35e4c.png" xmlns="">0A8WuwJdiB06Quyf_GcWJUQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

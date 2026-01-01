@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XW6j83elrUOuYhjM-fOqeA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="personal-performance.web.vanguard.com" CVScreenId="2be82c4b-4955-4e77-9489-6644a56ace7d" CvElementArea="496, 185, 18, 17" CvTextArea="432, 185, 62, 13" CvTextArgument="Portfolio" CvType="ArrowButton" DesignTimeRectangle="433, 181, 76, 20" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='VG-VGN-NAV' /&gt;&lt;webctrl shadowhostid='' tag='VG-VGN-HEADER' /&gt;&lt;webctrl aaname='Portfolio' shadowhostid='' tag='SPAN' /&gt;" Guid="3069dfb5-b2f5-4149-b42f-db34c5b7bc71" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Performance | Vanguard' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2be82c4b-4955-4e77-9489-6644a56ace7d" CvTextArea="312, 185, 97, 16" CvTextArgument="My dashboard" CvType="Text" DesignTimeRectangle="313, 181, 96, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='VG-VGN-NAV' /&gt;&lt;webctrl shadowhostid='' tag='VG-VGN-HEADER' matching:shadowhostid='fuzzy' fuzzylevel:shadowhostid='0.0' /&gt;&lt;webctrl aaname='My dashboard' shadowhostid='' tag='SPAN' type='' class='c11n-text-sm' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:shadowhostid='fuzzy' fuzzylevel:shadowhostid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='My dashboard' /&gt;" Guid="f751cd5c-64f3-466f-8074-6169d1804a45" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="85ddd6d02f29bf9b9db06879faef7589.png" xmlns="">07GtMq6o4Xk2jldw2YoT6VQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

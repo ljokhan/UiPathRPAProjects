@@ -1,0 +1,13 @@
+﻿{
+  "Name": "My dashboard(1)",
+  "Type": "Element",
+  "Id": "KWgVucANO02Di6F6Myw2XQ",
+  "Reference": "NYjCUJUq5Ei9_UVG-FX18Q/KWgVucANO02Di6F6Myw2XQ",
+  "ParentRef": "NYjCUJUq5Ei9_UVG-FX18Q/ijqrXbZ3aUOwQBxcdOBi_Q",
+  "Created": "2026-01-01T02:41:08.9446712Z",
+  "Updated": "2026-01-01T02:41:08.9446712Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
