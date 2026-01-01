@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LsvwT12bIkyZQoy_QD4sqA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="balances.web.vanguard.com" CVScreenId="2c373278-39b3-4aaa-af79-f2e0ce50e146" CvTextArea="524, 390, 74, 19" CvTextArgument="Holdings" CvType="Text" DesignTimeRectangle="525, 373, 72, 48" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='GYD-SECONDARY-NAV-WIDGET' /&gt;&lt;webctrl shadowhostid='' tag='HC-PAGE-NAVIGATION' /&gt;&lt;webctrl aria-label='Holdings 3 of 6' shadowhostid='' tag='A' /&gt;" Guid="bd90f64f-14b2-48e7-ab3e-247fbe73c207" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Balances | Vanguard' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2c373278-39b3-4aaa-af79-f2e0ce50e146" CvTextArea="352, 519, 138, 15" CvTextArgument="customized view" CvType="Text" DesignTimeRectangle="353, 514, 137, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='customized view' tag='SPAN' type='' class='c11n-link__text' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='customized view' /&gt;" Guid="19e6e1b3-d884-46c9-9210-4c2bc25fdf21" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset X="1" Y="4" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="e30923c9374ba00689420ac58012154a.png" xmlns="">0oKwY6yCFCUezAeDPRZAk-w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

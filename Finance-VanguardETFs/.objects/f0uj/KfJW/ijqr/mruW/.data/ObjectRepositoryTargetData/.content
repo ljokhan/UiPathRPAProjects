@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="HbO1X--9uE2YJJ3r5bVRpQ" Reference="NYjCUJUq5Ei9_UVG-FX18Q/mruWcPFX3E-SKID2LV74tQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="investor.vanguard.com/my-account/log-on" CVScreenId="cd7696a1-4cf7-456c-830a-2fa5e63b4e43" CvElementArea="1408, 297, 205, 73" CvTextArea="1483, 325, 53, 21" CvTextArgument="Log in" CvType="Button" DesignTimeRectangle="1486, 327, 49, 12" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='cmp-button__text' parentid='logonButton' tag='SPAN' /&gt;" Guid="4e924fb0-6a69-4b48-85fe-22b6dfa95bad" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Log in to view your accounts | Vanguard' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="cd7696a1-4cf7-456c-830a-2fa5e63b4e43" CvTextArea="312, 318, 498, 29" CvTextArgument="Log in to view your Vanguard accounts" CvType="Text" DesignTimeRectangle="313, 312, 636, 32" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='cmp-richtext--fz-h4 cmp-richtext--ff-mark cmp-richtext--fw-heavy' aaname='Log in to view your Vanguard accounts' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Log in to view your Vanguard accounts' /&gt;" Guid="fece78e7-5739-40a0-894f-3063d83f7675" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="BottomLeft" X="21" Y="-3" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="a503f8b15d0ab6210b5e0001e32bf2aa.png" xmlns="">0Z07XxSRQhke_IduqVdypvg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

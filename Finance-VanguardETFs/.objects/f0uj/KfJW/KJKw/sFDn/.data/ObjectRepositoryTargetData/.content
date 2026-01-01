@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Luc6Snfn8E2e2ibuJYo7pA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="challenges.web.vanguard.com/holiday" CVScreenId="5dc0035b-9034-424a-94f0-87bf1cdad49f" CvTextArea="312, 185, 97, 16" CvTextArgument="My dashboard" CvType="Text" DesignTimeRectangle="313, 181, 96, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='VG-VGN-NAV' /&gt;&lt;webctrl shadowhostid='' tag='VG-VGN-HEADER' /&gt;&lt;webctrl aaname='My dashboard' shadowhostid='' tag='SPAN' /&gt;" Guid="4eea0c76-b0b4-478e-9243-d43a7e853d8e" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Post Logon Challenges' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5dc0035b-9034-424a-94f0-87bf1cdad49f" CvTextArea="369, 118, 125, 13" CvTextArgument="Personal investors" CvType="Text" DesignTimeRectangle="371, 114, 123, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='VG-VGN-NAV' /&gt;&lt;webctrl shadowhostid='' tag='VG-VGN-HEADER' matching:shadowhostid='fuzzy' fuzzylevel:shadowhostid='0.0' /&gt;&lt;webctrl aaname='Personal investors' shadowhostid='' tag='DIV' type='' class='siteTitle-tuG3boMr c11n-text-sm' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:shadowhostid='fuzzy' fuzzylevel:shadowhostid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Personal investors' /&gt;" Guid="6bdef342-58f6-435d-829f-129330ea2a93" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="795dc351476c373dd1dc47b1212fce5a.png" xmlns="">0zZ_HUwpgLEKm0dvYct2NdQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

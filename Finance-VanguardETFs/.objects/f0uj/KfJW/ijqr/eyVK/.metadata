@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Performance",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "eyVK0uJN0ESM9yFueZ2i1w",
+  "Reference": "NYjCUJUq5Ei9_UVG-FX18Q/eyVK0uJN0ESM9yFueZ2i1w",
+  "ParentRef": "NYjCUJUq5Ei9_UVG-FX18Q/ijqrXbZ3aUOwQBxcdOBi_Q",
+  "Created": "2026-01-01T02:41:40.2608159Z",
+  "Updated": "2026-01-01T02:41:40.2608159Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

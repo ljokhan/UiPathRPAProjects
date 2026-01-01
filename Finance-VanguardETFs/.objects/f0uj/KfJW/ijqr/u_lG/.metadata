@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Holdings",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "u_lGnDnxRkSbnsOoc3V9IQ",
+  "Reference": "NYjCUJUq5Ei9_UVG-FX18Q/u_lGnDnxRkSbnsOoc3V9IQ",
+  "ParentRef": "NYjCUJUq5Ei9_UVG-FX18Q/ijqrXbZ3aUOwQBxcdOBi_Q",
+  "Created": "2026-01-01T02:18:58.073233Z",
+  "Updated": "2026-01-01T02:18:58.073233Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

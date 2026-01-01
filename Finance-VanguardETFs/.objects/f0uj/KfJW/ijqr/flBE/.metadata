@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Accounts",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "flBEf494XkuplRTIQYlL1Q",
+  "Reference": "NYjCUJUq5Ei9_UVG-FX18Q/flBEf494XkuplRTIQYlL1Q",
+  "ParentRef": "NYjCUJUq5Ei9_UVG-FX18Q/ijqrXbZ3aUOwQBxcdOBi_Q",
+  "Created": "2026-01-01T02:08:55.6581844Z",
+  "Updated": "2026-01-01T02:08:55.6581844Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

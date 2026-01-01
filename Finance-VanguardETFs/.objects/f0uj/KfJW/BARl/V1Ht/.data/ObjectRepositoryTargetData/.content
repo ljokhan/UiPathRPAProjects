@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="A-WSpjvb7E2zYjhQrM-iUw" Reference="NYjCUJUq5Ei9_UVG-FX18Q/V1Ht_hxgnE6-JbDz2pLAFw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="login.vanguard.com/login" CVScreenId="21acac55-cf03-4f0a-b9e3-9e5011e96f91" CvElementArea="892, 482, 415, 51" CvType="InputBox" DesignTimeRectangle="893, 484, 413, 48" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='PASSWORD-blocked' tag='INPUT' type='password' class='c11n-input__input ng-untouched ng-pristine ng-invalid' aaname=' Password ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="f45ae56a-a0f3-4909-9d98-ddd2e866bf3a" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Log on to vanguard.com - personal investors' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="21acac55-cf03-4f0a-b9e3-9e5011e96f91" CvTextArea="892, 466, 53, 11" CvTextArgument="Password" CvType="Text" DesignTimeRectangle="893, 468, 413, 8" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='PASSWORD' tag='LABEL' type='' class='c11n-label c11n-label--medium' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Password' /&gt;" Guid="fe36f7ec-ab1b-4b9f-97a1-58b7800ba5d6" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="efebb997deab295ad0efb118d36332b1.png" xmlns="">0PUT0g988I0ehZaYznn5JAA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

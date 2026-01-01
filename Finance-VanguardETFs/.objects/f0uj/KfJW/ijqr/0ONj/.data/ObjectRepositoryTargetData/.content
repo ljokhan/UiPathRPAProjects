@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lPBtDJ7tTkqFKXwbQPxjXw" Reference="NYjCUJUq5Ei9_UVG-FX18Q/0ONjFOvNEEycm452zw85kw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="login.vanguard.com/login" CVScreenId="d2b27759-fa9b-40ac-9253-3c4fba33fb51" CvElementArea="891, 386, 416, 51" CvType="InputBox" DesignTimeRectangle="893, 388, 413, 48" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='USER' tag='INPUT' type='text' class='c11n-input__input ng-untouched ng-pristine ng-invalid' aaname=' Username ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="4daf9eeb-74e7-4dae-898d-7ceee14d930d" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Log on to vanguard.com - personal investors' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="d2b27759-fa9b-40ac-9253-3c4fba33fb51" CvTextArea="892, 370, 56, 11" CvTextArgument="Username" CvType="Text" DesignTimeRectangle="893, 373, 413, 7" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='c11n-label c11n-label--medium' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Username' /&gt;" Guid="89785528-4f54-4e1e-95ed-fa04a2e77ac8" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="bb4b7621c0fefe6946e9b5dc194217c4.png" xmlns="">0NOl_czvbeUW0ZTgBRYFpNA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

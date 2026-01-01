@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="G2gjoAYLE0KySdRzmzZ9hQ" Reference="NYjCUJUq5Ei9_UVG-FX18Q/lKLnkVwyl0GGIA2mc3paiw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="balances.web.vanguard.com" CVScreenId="f1ee1522-fcba-43be-ae1c-74291075c3d0" CvTextArea="427, 390, 74, 15" CvTextArgument="Balances" CvType="Text" DesignTimeRectangle="427, 373, 74, 48" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='GYD-SECONDARY-NAV-WIDGET' /&gt;&lt;webctrl shadowhostid='' tag='HC-PAGE-NAVIGATION' /&gt;&lt;webctrl aria-label='Balances 2 of 6' shadowhostid='' tag='A' /&gt;" Guid="14d7b3f4-e7d6-49e0-9e82-d630cdde4b6e" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Balances | Vanguard' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f1ee1522-fcba-43be-ae1c-74291075c3d0" CvTextArea="1410, 459, 42, 15" CvTextArgument="Print" CvType="Text" DesignTimeRectangle="1411, 454, 40, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Print' tag='SPAN' type='' class='c11n-link__text' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Print' /&gt;" Guid="b5f67a2a-e509-4cb7-ab10-8f8517879adb" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="f1ee1522-fcba-43be-ae1c-74291075c3d0" CvTextArea="1467, 459, 142, 15" CvTextArgument="Download center" CvType="Text" DesignTimeRectangle="1467, 454, 142, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Download center' tag='SPAN' type='' class='c11n-link__text' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Download center' /&gt;" Guid="18936d95-02c1-4c46-891c-f53040aa7a68" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ea8f201bd89772fd6de28e5f38870bea.png" xmlns="">0WRE3nf5m0UiXxNxE9w4hzQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

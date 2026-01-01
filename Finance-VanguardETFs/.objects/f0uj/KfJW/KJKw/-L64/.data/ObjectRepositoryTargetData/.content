@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="kvi8xc4L8kuViPMWap_CSg" Reference="NYjCUJUq5Ei9_UVG-FX18Q/-L64nMfo5Eu_Xu2_KBl55A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="challenges.web.vanguard.com/holiday" CVScreenId="db30e539-c390-4a83-a5c7-da33d9b8f020" CvTextArea="312, 185, 97, 16" CvTextArgument="My dashboard" CvType="Text" DesignTimeRectangle="313, 181, 96, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='VG-VGN-NAV' /&gt;&lt;webctrl shadowhostid='' tag='VG-VGN-HEADER' /&gt;&lt;webctrl aaname='My dashboard' shadowhostid='' tag='SPAN' /&gt;" Guid="82ebc1c2-8bd5-453b-b871-518ae4a64cad" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Post Logon Challenges' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="db30e539-c390-4a83-a5c7-da33d9b8f020" CvElementArea="496, 184, 18, 18" CvTextArea="433, 185, 60, 13" CvTextArgument="Portfolio" CvType="ArrowButton" DesignTimeRectangle="433, 181, 76, 20" FuzzySelectorArgument="&lt;webctrl tag='VG-VGN-NAV' /&gt;&lt;webctrl shadowhostid='' tag='VG-VGN-HEADER' matching:shadowhostid='fuzzy' fuzzylevel:shadowhostid='0.0' /&gt;&lt;webctrl aaname='Portfolio' shadowhostid='' tag='SPAN' type='' class='c11n-text-sm' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:shadowhostid='fuzzy' fuzzylevel:shadowhostid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Portfolio' /&gt;" Guid="97445ba9-c020-4bf6-8f43-61b52fe47486" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="75c9e95a3af872b2dba025eda38a94d0.png" xmlns="">0_ufnqRts-Eu6L4i717gGFA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
