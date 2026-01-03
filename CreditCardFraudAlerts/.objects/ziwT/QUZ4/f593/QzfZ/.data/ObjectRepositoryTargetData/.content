@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XANGk1Qcq0iiIXuAHMIT-g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="commauth.penfed.org/as/authorization.oauth2" CVScreenId="dbd7ff9a-7200-4bb2-ad72-4858589ae8b8" CvElementArea="656, 314, 608, 47" CvType="InputBox" DesignTimeRectangle="658, 316, 605, 44" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='username-input' tag='INPUT' type='text' class='' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="b004fb23-a773-469b-ae63-a4f441681e42" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='chrome' title='Member Login' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="dbd7ff9a-7200-4bb2-ad72-4858589ae8b8" CvTextArea="657, 287, 84, 15" CvTextArgument="Username" CvType="Text" DesignTimeRectangle="658, 282, 82, 26" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='ping-input-label' parentid='content-columns' tag='DIV' type='' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Username &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Username' /&gt;" Guid="2e036aae-d681-4903-a7be-f934258c62ee" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="324339e9454b34dd9cc2b9de43aa4bcc.png" xmlns="">0tNVIC71o60S-ZUusjHlUsw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "LARRY JOKHAN",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "CXJiHA6CpUWdp4qKYszJ7A",
+  "Reference": "cEoxujFoEkGoAVEAiSigzA/CXJiHA6CpUWdp4qKYszJ7A",
+  "ParentRef": "cEoxujFoEkGoAVEAiSigzA/vM8U1Id9wU-GypxYTahPXg",
+  "Created": "2026-01-03T19:36:24.3725816Z",
+  "Updated": "2026-01-03T19:36:24.3725816Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
