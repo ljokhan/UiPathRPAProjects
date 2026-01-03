@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MIPaFbg5O0WnEC-HIkn9XQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="4ceaf3c9-425d-4dea-baff-be51d0615445" CvTextArea="27, 308, 23, 13" CvTextArgument="PIN" CvType="Text" DesignTimeRectangle="28, 305, 400, 19" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='PIN' role='text' /&gt;" Guid="27546b3b-fa3d-4ef5-bdf4-c2f40884949f" ScopeSelectorArgument="&lt;wnd app='credentialuibroker.exe' cls='Credential Dialog Xaml Host' title='Windows Security' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4ceaf3c9-425d-4dea-baff-be51d0615445" CvTextArea="28, 380, 96, 13" CvTextArgument="I forgot my PIN" CvType="Text" DesignTimeRectangle="29, 377, 95, 19" ElementType="Text" FuzzySelectorArgument="&lt;ctrl automationid='CommandLinkField_5' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;&lt;ctrl name='I forgot my PIN' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='I forgot my PIN' /&gt;" Guid="afb97d95-e09b-40fc-bc8c-f626ead856c1" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="11767f32d80545162ad03681d1641dc6.png" xmlns="">0iJMvLBvB6kGpjVCg6yMYXw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

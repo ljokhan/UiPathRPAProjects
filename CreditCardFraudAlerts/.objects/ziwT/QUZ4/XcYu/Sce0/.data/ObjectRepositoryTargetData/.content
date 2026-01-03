@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NJXbg-RwYUm6g2hFMFv1qQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="commauth.penfed.org/as/authorization.oauth2" CVScreenId="dbd7ff9a-7200-4bb2-ad72-4858589ae8b8" CvTextArea="657, 287, 84, 15" CvTextArgument="Username" CvType="Text" DesignTimeRectangle="658, 282, 82, 26" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='ping-input-label' parentid='content-columns' tag='DIV' /&gt;" Guid="76fbd404-8956-4976-b601-1bebe33a640a" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='chrome' title='Member Login' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="dbd7ff9a-7200-4bb2-ad72-4858589ae8b8" CvElementArea="656, 314, 608, 47" CvType="InputBox" DesignTimeRectangle="658, 316, 605, 44" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='username-input' tag='INPUT' /&gt;" Guid="954cf9cb-d72b-4f91-8497-a6c6a6897af5" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="bb8ea6267227ca0b2092b2319e98c978.png" xmlns="">08fGfOuDx4EydGz4gjZe6fA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
