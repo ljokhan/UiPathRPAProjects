@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MYkXlV8yZkylINw9OUtekQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="home.penfed.org/v2/s/account-summary-page" CVScreenId="27732a17-8244-4de0-ac44-0cd452f52261" CvTextArea="275, 911, 94, 17" CvTextArgument="Gold Card" CvType="Text" DesignTimeRectangle="276, 908, 93, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl sfl-path='siteforceCommunityApp/siteforceRouterInitializer/siteforceGeneratedpage124964dc599342748828Bf744fb139a7C597_0/cAccountSummaryLandingPage' tag='C-ACCOUNT-SUMMARY-LANDING-PAGE' /&gt;&lt;webctrl aaname='Gold Card' tag='LIGHTNING-FORMATTED-TEXT' /&gt;" Guid="bc81a68f-da35-4844-a9d6-4769d9ffeeb4" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='chrome' title='Account Summary Page' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="27732a17-8244-4de0-ac44-0cd452f52261" CvTextArea="274, 835, 131, 20" CvTextArgument="Credit Cards" CvType="Text" DesignTimeRectangle="275, 832, 129, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl sfl-path='siteforceCommunityApp/siteforceRouterInitializer/siteforceGeneratedpage124964dc599342748828Bf744fb139a7C597_0/cAccountSummaryLandingPage' tag='C-ACCOUNT-SUMMARY-LANDING-PAGE' matching:sfl-path='fuzzy' fuzzylevel:sfl-path='0.0' /&gt;&lt;webctrl type='' tag='H2' class='' aaname='Credit Cards' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Credit Cards' /&gt;" Guid="a9f3596d-1416-42b7-8d9d-a992b7d1027a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b65701376985c25834ccbf6e50ce8d8b.png" xmlns="">0Mery2kN1OUa0ELPveVD-Vg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xoZanWpy_kS_3NlSQvuWmg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="home.penfed.org/v2/s/transaction-history-page" CVScreenId="27fabe98-4bbb-4035-8ed0-7ff7a8ceb004" CvTextArea="272, 308, 94, 17" CvTextArgument="Gold Card" CvType="Text" DesignTimeRectangle="274, 305, 92, 25" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl sfl-path='siteforceCommunityApp/siteforceRouterInitializer/siteforceGeneratedpageCc33c599F71a46acA7bf4a83aaf142cbC597_0/forceCommunityFlowCommunity/flowruntimeFlowRuntimeForFlexiPage/flowruntimeFlowRuntime/auraIf/flowruntimeFlow' tag='FLOWRUNTIME-FLOW' /&gt;&lt;webctrl tag='LIGHTNING-FORMATTED-TEXT' /&gt;" Guid="a7172ca8-95ac-4eaa-ad05-8e9ff41b9eb8" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='chrome' title='Transaction History Page' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="27fabe98-4bbb-4035-8ed0-7ff7a8ceb004" CvTextArea="255, 212, 342, 30" CvTextArgument="ACCOUNT DETAILS" CvType="Text" DesignTimeRectangle="246, 208, 940, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl sfl-path='siteforceCommunityApp/siteforceRouterInitializer/siteforceGeneratedpageCc33c599F71a46acA7bf4a83aaf142cbC597_0/cPfoxHeaderComp' tag='C-PFOX-HEADER-COMP' matching:sfl-path='fuzzy' fuzzylevel:sfl-path='0.0' /&gt;&lt;webctrl tag='H1' type='' class='newHeaderComponentCss slds-p-bottom_small slds-p-top_small slds-p-left_small' aaname=' ACCOUNT DETAILS' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='ACCOUNT DETAILS' /&gt;" Guid="178efee0-5a82-4662-866f-972f864e554a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="42cc7da5ce28e92d12ff165f865689fb.png" xmlns="">0rGtcqLtS90SHt2iTE10VZQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
