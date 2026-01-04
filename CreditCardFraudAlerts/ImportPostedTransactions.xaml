@@ -119,7 +119,7 @@
       <AssemblyReference>UiPath.CodedWorkflows</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="830,1390" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="830,1271" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="MyUserProfile" />
       <Variable x:TypeArguments="x:String" Name="MostRecentCSV" />
@@ -194,7 +194,6 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:ForEachFileX>
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="452,123" sap2010:WorkflowViewState.IdRef="MessageBox_4" Text="[MostRecentCSV]" />
     <ui:ReadCsvFile FilePath="{x:Null}" DataTable="[DataTablePostedTransactions]" Delimitator="Comma" DelimitatorForViewModel="Comma" DisplayName="Read CSV" sap:VirtualizedContainerService.HintSize="452,170" sap2010:WorkflowViewState.IdRef="ReadCsvFile_1" PathResource="[LocalResource.FromPath(MostRecentCSV)]" />
     <ui:OutputDataTable DataTable="[DataTablePostedTransactions]" DisplayName="Output Data Table as Text" sap:VirtualizedContainerService.HintSize="452,113" sap2010:WorkflowViewState.IdRef="OutputDataTable_1" Text="[TESTING]" />
     <ui:GetSecret TimeoutMS="{x:Null}" AssetName="AzureDWConnectString" DisplayName="Get Secret - Azure DB Connection" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="GetSecret_1" Secret="[GlobalVariablesNamespace.GlobalVariables.MyAzureDWConnectString]">
@@ -224,13 +223,13 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:ExecuteNonQuery>
-    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[DataTablePostedTransactions]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="452,558" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
+    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[DataTablePostedTransactions]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="452,562" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
       <ui:ForEachRow.Body>
         <ActivityAction x:TypeArguments="sd:DataRow">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,385" sap2010:WorkflowViewState.IdRef="Sequence_16">
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,389" sap2010:WorkflowViewState.IdRef="Sequence_16">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="TransactionDescriptionFormatted" />
             </Sequence.Variables>
