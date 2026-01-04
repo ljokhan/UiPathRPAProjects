@@ -124,8 +124,8 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:GetEnvironmentVariable DisplayName="Get Environment Variable - User Profile" sap:VirtualizedContainerService.HintSize="484,118" sap2010:WorkflowViewState.IdRef="GetEnvironmentVariable_1" Variable="USERPROFILE" VariableValue="[TestUserProfile]" />
-    <Assign sap:VirtualizedContainerService.HintSize="484,175" sap2010:WorkflowViewState.IdRef="Assign_1">
+    <ui:GetEnvironmentVariable DisplayName="Get Environment Variable - User Profile" sap:VirtualizedContainerService.HintSize="450,118" sap2010:WorkflowViewState.IdRef="GetEnvironmentVariable_1" Variable="USERPROFILE" VariableValue="[TestUserProfile]" />
+    <Assign sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="Assign_1">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[TestUserProfile]</OutArgument>
       </Assign.To>
@@ -133,7 +133,7 @@
         <InArgument x:TypeArguments="x:String">[TestUserProfile + "\Downloads"]</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:ForEachFileX DisplayName="For Each File in Folder" Filter="*Z.csv" Folder="[TestUserProfile]" sap:VirtualizedContainerService.HintSize="484,461" sap2010:WorkflowViewState.IdRef="ForEachFileX_3" IncludeSubDirectories="False" OrderBy="CreationDateOldFirst" SkipFolderWithoutPermission="False">
+    <ui:ForEachFileX DisplayName="For Each File in Folder" Filter="*Z.csv" Folder="[TestUserProfile]" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="ForEachFileX_3" IncludeSubDirectories="False" OrderBy="CreationDateOldFirst" SkipFolderWithoutPermission="False">
       <ui:ForEachFileX.Body>
         <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
           <ActivityAction.Argument1>
@@ -175,11 +175,10 @@
       </ui:ForEachFileX.Body>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:ForEachFileX>
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="484,114" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[MostRecentCSV]" />
   </Sequence>
 </Activity>
