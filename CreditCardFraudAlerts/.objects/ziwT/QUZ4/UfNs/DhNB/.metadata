@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Download Transactions",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "DhNBqC2nP06FkMXOj9jwSg",
+  "Reference": "cEoxujFoEkGoAVEAiSigzA/DhNBqC2nP06FkMXOj9jwSg",
+  "ParentRef": "cEoxujFoEkGoAVEAiSigzA/UfNsmIT8Mk2Rz-WsmvbqTA",
+  "Created": "2026-01-04T18:12:29.946435Z",
+  "Updated": "2026-01-04T18:12:29.946435Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
