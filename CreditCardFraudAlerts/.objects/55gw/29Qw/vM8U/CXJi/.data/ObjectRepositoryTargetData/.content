@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TQcm86SucUCZ0orhO3WQvA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="af1b9878-8d73-41b1-b1e2-c8a8755fefa8" CvTextArea="70, 110, 98, 13" CvTextArgument="LARRY JOKHAN" CvType="Text" DesignTimeRectangle="67, 107, 350, 19" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Switch to LARRY JOKHAN Saved to your Windows device' role='list item' /&gt;&lt;ctrl automationid='ItemsListView' /&gt;&lt;ctrl name='LARRY JOKHAN' role='text' /&gt;" Guid="cf0cbca2-1420-4866-9ce9-d6c934984523" ScopeSelectorArgument="&lt;wnd app='credentialuibroker.exe' cls='Credential Dialog Xaml Host' title='Windows Security' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="af1b9878-8d73-41b1-b1e2-c8a8755fefa8" CvTextArea="23, 62, 162, 23" CvTextArgument="Choose a passkey" CvType="Text" DesignTimeRectangle="25, 57, 406, 27" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='Choose a passkey' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Choose a passkey' /&gt;" Guid="fad15fd0-a556-4896-86c9-df48845c5c41" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9a89298d11b5ee846ad30ddebe181ac2.png" xmlns="">0R-Bi2scZrUezrso3zI81_w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

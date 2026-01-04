@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Account Summary Page",
+  "Type": "Screen",
+  "Id": "EtUiSH0Lvk-_JOwr1QLPcg",
+  "Reference": "cEoxujFoEkGoAVEAiSigzA/EtUiSH0Lvk-_JOwr1QLPcg",
+  "ParentRef": "cEoxujFoEkGoAVEAiSigzA/QUZ4uOXfRk6xm9ydkIABLw",
+  "Created": "2026-01-04T03:57:22.2946439Z",
+  "Updated": "2026-01-04T03:57:22.2946439Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

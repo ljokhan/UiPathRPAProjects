@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Windows Security",
+  "Type": "Screen",
+  "Id": "vM8U1Id9wU-GypxYTahPXg",
+  "Reference": "cEoxujFoEkGoAVEAiSigzA/vM8U1Id9wU-GypxYTahPXg",
+  "ParentRef": "cEoxujFoEkGoAVEAiSigzA/29Qwk_yYFUiLkPkvWWA4UQ",
+  "Created": "2026-01-03T19:33:03.6493017Z",
+  "Updated": "2026-01-03T19:33:03.6493017Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

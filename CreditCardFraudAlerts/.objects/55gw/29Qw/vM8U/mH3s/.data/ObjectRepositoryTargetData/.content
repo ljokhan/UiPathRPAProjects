@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="L-FiHKuWBkeHLnNjjjfyyA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="78db0e58-ae04-49c0-9354-5ea4c25dd3e2" CvElementArea="229, 304, 34, 35" CvType="Button" DesignTimeRectangle="230, 305, 32, 32" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Switch to PIN' role='list item' /&gt;" Guid="c855e07d-e3ef-4a04-b977-be85217dc80b" ScopeSelectorArgument="&lt;wnd app='credentialuibroker.exe' cls='Credential Dialog Xaml Host' title='Windows Security' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="78db0e58-ae04-49c0-9354-5ea4c25dd3e2" CvTextArea="60, 269, 336, 16" CvTextArgument="Scan your finger on the fingerprint reader." CvType="Text" DesignTimeRectangle="61, 265, 335, 24" ElementType="Text" FuzzySelectorArgument="&lt;ctrl automationid='BioFeedbackText' role='text' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Scan your finger on the fingerprint reader.' /&gt;" Guid="3560cd64-c8ed-4b75-8388-cf096e19192c" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="78db0e58-ae04-49c0-9354-5ea4c25dd3e2" CvElementArea="192, 304, 35, 35" CvType="Button" DesignTimeRectangle="194, 305, 32, 32" ElementType="ListItem" FuzzySelectorArgument="&lt;ctrl name='Switch to Fingerprint' role='list item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Switch to Fingerprint' /&gt;" Guid="f9e01f42-f675-4fda-90d3-baa1ea6f9082" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9505ec928024d620afa427d959ee9d8d.png" xmlns="">0DbSLYDPm5EaQCYYbYzyobQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

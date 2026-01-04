@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="f1OzSGskXkiWgxvK76Kl-A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="78db0e58-ae04-49c0-9354-5ea4c25dd3e2" CvElementArea="229, 304, 34, 35" CvType="Button" DesignTimeRectangle="230, 305, 32, 32" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Switch to PIN' role='list item' /&gt;" Guid="30db8f92-ebc4-4cef-9930-28371c95015f" ScopeSelectorArgument="&lt;wnd app='credentialuibroker.exe' cls='Credential Dialog Xaml Host' title='Windows Security' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="78db0e58-ae04-49c0-9354-5ea4c25dd3e2" CvElementArea="192, 304, 35, 35" CvType="Button" DesignTimeRectangle="194, 305, 32, 32" ElementType="ListItem" FuzzySelectorArgument="&lt;ctrl name='Switch to Fingerprint' role='list item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Switch to Fingerprint' /&gt;" Guid="e1a7aea0-2378-4b95-9232-bed6b3432bef" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3260ec5a2f5ff705db4567f3a3b2e1fd.png" xmlns="">0u5k4LjexZEaFkYRCauNXgw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

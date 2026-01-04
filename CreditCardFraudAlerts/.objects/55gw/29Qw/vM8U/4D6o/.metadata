@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Sign-in options",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "4D6oZZojM0av-2zUT3mHvw",
+  "Reference": "cEoxujFoEkGoAVEAiSigzA/4D6oZZojM0av-2zUT3mHvw",
+  "ParentRef": "cEoxujFoEkGoAVEAiSigzA/vM8U1Id9wU-GypxYTahPXg",
+  "Created": "2026-01-03T19:41:30.0285269Z",
+  "Updated": "2026-01-03T19:41:30.0285269Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

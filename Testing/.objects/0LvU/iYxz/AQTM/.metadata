@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Balances  Vanguard",
+  "Type": "Screen",
+  "Id": "AQTMR442eUS3_oJmSjdzWg",
+  "Reference": "_iqij4x2R0qIq_kPRWpq9A/AQTMR442eUS3_oJmSjdzWg",
+  "ParentRef": "_iqij4x2R0qIq_kPRWpq9A/iYxzFkViskSALBYDeUuK5Q",
+  "Created": "2026-01-01T03:52:54.1556664Z",
+  "Updated": "2026-01-01T03:52:54.1556664Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Transaction Download page",
+  "Type": "Screen",
+  "Id": "UfNsmIT8Mk2Rz-WsmvbqTA",
+  "Reference": "cEoxujFoEkGoAVEAiSigzA/UfNsmIT8Mk2Rz-WsmvbqTA",
+  "ParentRef": "cEoxujFoEkGoAVEAiSigzA/QUZ4uOXfRk6xm9ydkIABLw",
+  "Created": "2026-01-04T18:09:07.1074382Z",
+  "Updated": "2026-01-04T18:09:07.1074382Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

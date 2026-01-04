@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge PenFed Credit Union  Checking, Savings, ",
+  "Type": "Screen",
+  "Id": "f593GQj3EkGyFo7yLqia6Q",
+  "Reference": "cEoxujFoEkGoAVEAiSigzA/f593GQj3EkGyFo7yLqia6Q",
+  "ParentRef": "cEoxujFoEkGoAVEAiSigzA/QUZ4uOXfRk6xm9ydkIABLw",
+  "Created": "2026-01-03T18:53:46.5380024Z",
+  "Updated": "2026-01-03T18:53:46.5380024Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

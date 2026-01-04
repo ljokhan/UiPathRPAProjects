@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Log in with Passkey",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "ALBjafPHsU6BfohDX1Fllw",
+  "Reference": "cEoxujFoEkGoAVEAiSigzA/ALBjafPHsU6BfohDX1Fllw",
+  "ParentRef": "cEoxujFoEkGoAVEAiSigzA/f593GQj3EkGyFo7yLqia6Q",
+  "Created": "2026-01-03T19:30:33.0712774Z",
+  "Updated": "2026-01-03T19:30:33.0712774Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

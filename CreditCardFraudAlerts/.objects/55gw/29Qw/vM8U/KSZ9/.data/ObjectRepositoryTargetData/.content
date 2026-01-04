@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gf1ifatVykqzJZ7yzgoRaw" Reference="cEoxujFoEkGoAVEAiSigzA/KSZ9oH0MbUCOejTDbJkOmg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="69bafff5-d5d8-4183-91ec-5cde9b665139" CvTextArea="37, 386, 168, 16" CvTextArgument="Choose a different passkey" CvType="Text" DesignTimeRectangle="25, 378, 192, 31" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Choose a different passkey' role='link' /&gt;" Guid="03e9c1e8-1952-45fb-9103-7d8bdf8c3c41" ScopeSelectorArgument="&lt;wnd app='credentialuibroker.exe' cls='Credential Dialog Xaml Host' title='Windows Security' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="69bafff5-d5d8-4183-91ec-5cde9b665139" CvTextArea="60, 269, 336, 16" CvTextArgument="Scan your finger on the fingerprint reader." CvType="Text" DesignTimeRectangle="61, 265, 335, 24" ElementType="Text" FuzzySelectorArgument="&lt;ctrl automationid='BioFeedbackText' role='text' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Scan your finger on the fingerprint reader.' /&gt;" Guid="42b277e0-b0dc-4aa3-8277-c743ad2a4890" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3feec1d745f506ab0404684f4c121806.png" xmlns="">0886B0hMQB0Ot8VAxk9H4hw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
