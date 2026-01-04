@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge NIFTY 50 - NSE India",
+  "Type": "Screen",
+  "Id": "o7kduUQTFUiNAzz006Ydug",
+  "Reference": "_iqij4x2R0qIq_kPRWpq9A/o7kduUQTFUiNAzz006Ydug",
+  "ParentRef": "_iqij4x2R0qIq_kPRWpq9A/3BwPXUaal0aq95Rir4jI3Q",
+  "Created": "2025-12-28T19:35:41.1962519Z",
+  "Updated": "2025-12-28T19:35:41.1962519Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

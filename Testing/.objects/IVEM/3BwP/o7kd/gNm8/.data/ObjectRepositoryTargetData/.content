@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QAMUH1DMtkOruN4IlxzTyA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="nseindia.com/index-tracker/NIFTY%2050" CVScreenId="9ab2fda1-f8ae-4858-8d49-3f61012d23f6" CvType="AnyWordGroup" DesignTimeRectangle="131, 416, 532, 44" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='index' parentid='midBody' tag='DIV' /&gt;" Guid="d91b9751-ef9c-4994-abf1-f5e97eec41d0" ScopeSelectorArgument="&lt;html app='msedge.exe' title='NIFTY 50 - NSE India' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9ab2fda1-f8ae-4858-8d49-3f61012d23f6" CvTextArea="129, 354, 73, 18" CvTextArgument="Indices" CvType="Text" DesignTimeRectangle="131, 350, 71, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='midBody' tag='LABEL' type='' class='me-2 indices_title' aaname='Indices' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Indices' /&gt;" Guid="dc88b0cf-a59b-42fa-82a7-a8423d5d71c9" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fe3e14ac34de0a3ff9818693c11aff38.png" xmlns="">0TLhAv2cwlEioWhJe9dZ5Sw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

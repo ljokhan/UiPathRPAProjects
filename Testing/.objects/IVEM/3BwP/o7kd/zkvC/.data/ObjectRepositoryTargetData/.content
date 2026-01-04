@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="WbBbkW0qBUaYBlSIYLWQPA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="nseindia.com/index-tracker/NIFTY%2050" CVScreenId="98edfd3b-bc67-40f7-8f1b-f6a5fcc33145" CvType="AnyWordGroup" DesignTimeRectangle="131, 462, 230, 67" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='index-value' parentid='midBody' tag='SPAN' /&gt;" Guid="f851b726-afda-46d2-b9c8-78a932a1d926" ScopeSelectorArgument="&lt;html app='msedge.exe' title='NIFTY 50 - NSE India' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="98edfd3b-bc67-40f7-8f1b-f6a5fcc33145" CvTextArea="129, 354, 73, 18" CvTextArgument="Indices" CvType="Text" DesignTimeRectangle="131, 350, 71, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='midBody' tag='LABEL' type='' class='me-2 indices_title' aaname='Indices' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Indices' /&gt;" Guid="e7f2f292-74e0-45cd-b719-4ef3e378f14a" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="98edfd3b-bc67-40f7-8f1b-f6a5fcc33145" CvTextArea="271, 275, 55, 16" CvTextArgument="HOME" CvType="Text" DesignTimeRectangle="253, 265, 92, 44" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='navbarSupportedContent' tag='A' type='' class='nav-link active' aaname='Home' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='HOME' /&gt;" Guid="d7eb8ebf-6565-4e00-8c29-2ed35ac2c8df" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b706c4cb3471f4cb9161b7e35ef22db6.png" xmlns="">0mRsd2PJ4eUmaOMtuN92fEg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
