@@ -98,7 +98,7 @@
       <AssemblyReference>System.Private.Xml</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="904,1501" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="904,1521" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd2:DataTable" Default="[New System.Data.DataTable]" Name="DataTablePendingTrans" />
     </Sequence.Variables>
@@ -107,21 +107,21 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" ContinueOnError="False" DisplayName="Edge Account Summary Page" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,1478" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="eb9fd340-ac64-4b1f-9fbb-799b793a3ff1" Timeout="60" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" ContinueOnError="False" DisplayName="Edge - Attach to FenFed Account Summary Page" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,848" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="eb9fd340-ac64-4b1f-9fbb-799b793a3ff1" Timeout="60" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,1284" sap2010:WorkflowViewState.IdRef="Sequence_6">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,677" sap2010:WorkflowViewState.IdRef="Sequence_6">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NCheckState DisplayName="Check App State 'Credit Cards'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,1220" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="eb9fd340-ac64-4b1f-9fbb-799b793a3ff1" Timeout="60" Version="V5">
+            <uix:NCheckState DisplayName="Check App State - Wait for 'Credit Cards' to load" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,613" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="eb9fd340-ac64-4b1f-9fbb-799b793a3ff1" Timeout="60" Version="V5">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,757" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                <Sequence DisplayName="Target appears - Credit Cards section has loaded" sap:VirtualizedContainerService.HintSize="450,299" sap2010:WorkflowViewState.IdRef="Sequence_7">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="x:String" Name="TEMP" />
                   </Sequence.Variables>
@@ -130,7 +130,7 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="5" DisplayName="Click 'Credit Cards'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,266" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="eb9fd340-ac64-4b1f-9fbb-799b793a3ff1" Version="V5">
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="5" DisplayName="Click 'Credit Cards' link" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,61" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="eb9fd340-ac64-4b1f-9fbb-799b793a3ff1" Version="V5">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable BrowserURL="home.penfed.org/v2/s/account-summary-page" CVScreenId="a96856a5-d9ab-4f0b-af87-7565ad439412" ContentHash="MYkXlV8yZkylINw9OUtekQ" CvTextArea="275, 911, 94, 17" CvTextArgument="Gold Card" CvType="Text" DesignTimeRectangle="276, 908, 93, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl sfl-path='siteforceCommunityApp/siteforceRouterInitializer/siteforceGeneratedpage124964dc599342748828Bf744fb139a7C597_0/cAccountSummaryLandingPage' tag='C-ACCOUNT-SUMMARY-LANDING-PAGE' /&gt;&lt;webctrl aaname='Gold Card' tag='LIGHTNING-FORMATTED-TEXT' /&gt;" Guid="9628ffa9-69d6-43a6-b4c6-c41da0008ec7" InformativeScreenshot="b65701376985c25834ccbf6e50ce8d8b.png" Reference="cEoxujFoEkGoAVEAiSigzA/AlkDYQk_XUa06JiL3yxGzQ" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='chrome' title='Account Summary Page' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]">
                         <uix:TargetAnchorable.Anchors>
@@ -143,7 +143,7 @@
                     <uix:NClick.VerifyOptions>
                       <uix:VerifyExecutionOptions DisplayName="Verification target" Mode="Appears" Retry="True">
                         <uix:VerifyExecutionOptions.Target>
-                          <uix:TargetAnchorable BrowserURL="home.penfed.org/v2/s/transaction-history-page" CVScreenId="27fabe98-4bbb-4035-8ed0-7ff7a8ceb004" ContentHash="xoZanWpy_kS_3NlSQvuWmg" CvTextArea="272, 308, 94, 17" CvTextArgument="Gold Card" CvType="Text" DesignTimeRectangle="274, 305, 92, 25" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl sfl-path='siteforceCommunityApp/siteforceRouterInitializer/siteforceGeneratedpageCc33c599F71a46acA7bf4a83aaf142cbC597_0/forceCommunityFlowCommunity/flowruntimeFlowRuntimeForFlexiPage/flowruntimeFlowRuntime/auraIf/flowruntimeFlow' tag='FLOWRUNTIME-FLOW' /&gt;&lt;webctrl tag='LIGHTNING-FORMATTED-TEXT' /&gt;" Guid="a7172ca8-95ac-4eaa-ad05-8e9ff41b9eb8" InformativeScreenshot="42cc7da5ce28e92d12ff165f865689fb.png" Reference="cEoxujFoEkGoAVEAiSigzA/AS-W0H8ZakeGREpreaF6UA" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='chrome' title='Transaction History Page' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]">
+                          <uix:TargetAnchorable BrowserURL="home.penfed.org/v2/s/transaction-history-page" CVScreenId="27fabe98-4bbb-4035-8ed0-7ff7a8ceb004" ContentHash="GThL1jNL8kGBGwwKk3GCsw" CvTextArea="272, 308, 94, 17" CvTextArgument="Gold Card" CvType="Text" DesignTimeRectangle="274, 305, 92, 25" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl sfl-path='siteforceCommunityApp/siteforceRouterInitializer/siteforceGeneratedpageCc33c599F71a46acA7bf4a83aaf142cbC597_0/forceCommunityFlowCommunity/flowruntimeFlowRuntimeForFlexiPage/flowruntimeFlowRuntime/auraIf/flowruntimeFlow' tag='FLOWRUNTIME-FLOW' /&gt;&lt;webctrl tag='LIGHTNING-FORMATTED-TEXT' /&gt;" Guid="a7172ca8-95ac-4eaa-ad05-8e9ff41b9eb8" InformativeScreenshot="42cc7da5ce28e92d12ff165f865689fb.png" Reference="cEoxujFoEkGoAVEAiSigzA/AS-W0H8ZakeGREpreaF6UA" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='chrome' title='Transaction History Page' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]">
                             <uix:TargetAnchorable.Anchors>
                               <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                 <uix:Target CVScreenId="27fabe98-4bbb-4035-8ed0-7ff7a8ceb004" CvTextArea="255, 212, 342, 30" CvTextArgument="ACCOUNT DETAILS" CvType="Text" DesignTimeRectangle="246, 208, 940, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl sfl-path='siteforceCommunityApp/siteforceRouterInitializer/siteforceGeneratedpageCc33c599F71a46acA7bf4a83aaf142cbC597_0/cPfoxHeaderComp' tag='C-PFOX-HEADER-COMP' matching:sfl-path='fuzzy' fuzzylevel:sfl-path='0.0' /&gt;&lt;webctrl tag='H1' type='' class='newHeaderComponentCss slds-p-bottom_small slds-p-top_small slds-p-left_small' aaname=' ACCOUNT DETAILS' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='ACCOUNT DETAILS' /&gt;" Guid="178efee0-5a82-4662-866f-972f864e554a" SearchSteps="FuzzySelector, CV" />
@@ -156,24 +156,58 @@
                         </uix:VerifyExecutionOptions.Timeout>
                       </uix:VerifyExecutionOptions>
                     </uix:NClick.VerifyOptions>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
                   </uix:NClick>
-                  <uix:NExtractData AppendResults="False" ContinueOnError="False" DataTable="[DataTablePendingTrans]" DelayBefore="5" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='CV' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Date' ReferenceIdx='0' Name='Date'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Description' ReferenceIdx='1' Name='Description'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Amount' ReferenceIdx='2' Name='Amount'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column1' ReferenceIdx='3' Name='Column1' IsDeleted='true'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract-table table_source='CV' /&gt;" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,143" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="eb9fd340-ac64-4b1f-9fbb-799b793a3ff1" Version="V5">
+                  <uix:NExtractData AppendResults="False" ContinueOnError="False" DataTable="[DataTablePendingTrans]" DelayBefore="5" DisplayName="Extract Table Data - Pending transactions" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='CV' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Date' ReferenceIdx='0' Name='Date'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Description' ReferenceIdx='1' Name='Description'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Amount' ReferenceIdx='2' Name='Amount'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column1' ReferenceIdx='3' Name='Column1' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract-table table_source='CV' /&gt;" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,61" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="eb9fd340-ac64-4b1f-9fbb-799b793a3ff1" Version="V5">
                     <uix:NExtractData.Target>
                       <uix:TargetAnchorable BrowserURL="home.penfed.org/v2/s/transaction-history-page" CVScreenId="74c1799b-8dc2-4d56-9cfe-476a03aafeec" CvElementArea="267, 687, 887, 256" CvType="Table" DesignTimeRectangle="272, 740, 208, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl idx='2' sfl-path='siteforceCommunityApp/siteforceRouterInitializer/siteforceGeneratedpageCc33c599F71a46acA7bf4a83aaf142cbC597_0/forceCommunityFlowCommunity/flowruntimeFlowRuntimeForFlexiPage/flowruntimeFlowRuntime/auraIf/flowruntimeFlow' tag='FLOWRUNTIME-FLOW' /&gt;&lt;webctrl tag='P' /&gt;" Guid="a91d29a7-6dc1-4280-ade3-0a447ec09094" InformativeScreenshot="3bd949423935eff455105779b942a110.png" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='chrome' title='Transaction History Page' /&gt;" SearchSteps="CV" Version="V6" WaitForReadyArgument="Interactive" />
                     </uix:NExtractData.Target>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
                   </uix:NExtractData>
-                  <ui:OutputDataTable DataTable="[DataTablePendingTrans]" DisplayName="Output Data Table as Text" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="OutputDataTable_1" Text="[TEMP]" />
-                  <ui:WriteTextFile FileName="{x:Null}" Output="{x:Null}" DisplayName="Write Text File" File="[LocalResource.FromPath(&quot;C:\\Users\\ljokh\\OneDrive\\Desktop\\RPATest.txt&quot;)]" sap:VirtualizedContainerService.HintSize="416,171" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[TEMP]" />
+                  <ui:OutputDataTable DataTable="[DataTablePendingTrans]" DisplayName="Output Data Table as Text" sap:VirtualizedContainerService.HintSize="416,61" sap2010:WorkflowViewState.IdRef="OutputDataTable_1" Text="[TEMP]">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </ui:OutputDataTable>
+                  <ui:WriteTextFile FileName="{x:Null}" Output="{x:Null}" DisplayName="Write Text File" File="[LocalResource.FromPath(&quot;C:\\Users\\ljokh\\OneDrive\\Desktop\\RPATest.txt&quot;)]" sap:VirtualizedContainerService.HintSize="416,52" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[TEMP]">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </ui:WriteTextFile>
                 </Sequence>
               </uix:NCheckState.IfExists>
               <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                <Sequence DisplayName="Target does not appear - Log Error" sap:VirtualizedContainerService.HintSize="450,25" sap2010:WorkflowViewState.IdRef="Sequence_8">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,114" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;CC accounts  not found&quot;]" />
+                  <ui:LogMessage DisplayName="Log Message - Error" sap:VirtualizedContainerService.HintSize="416,52" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;Credit Card Link on Accounts Page not found&quot;]">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </ui:LogMessage>
                 </Sequence>
               </uix:NCheckState.IfNotExists>
               <uix:NCheckState.Target>
