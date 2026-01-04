@@ -1,0 +1,18 @@
+[
+  {
+    "Constant": false,
+    "Name": "MyAzureConnection",
+    "TypeFullyQualifiedName": "UiPath.Database.DatabaseConnection, UiPath.Database, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": null,
+    "IsLiteral": false
+  },
+  {
+    "Constant": false,
+    "Name": "MyAzureDWConnectString",
+    "TypeFullyQualifiedName": "System.Security.SecureString, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": null,
+    "IsLiteral": false
+  }
+]
