@@ -39,6 +39,8 @@
       <x:String>GlobalVariablesNamespace</x:String>
       <x:String>GlobalConstantsNamespace</x:String>
       <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -103,53 +105,66 @@
       <AssemblyReference>System.Data.SqlClient</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="743,1142" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="899,1199" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" ContinueOnError="False" DisplayName="Edge - PenFed Transaction Download page" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,1119" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" ScopeGuid="99c5017b-f5fa-44e0-b3de-26400ddc1dc9" Timeout="60" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" ContinueOnError="False" DisplayName="Edge - PenFed Transaction Download page" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="506,1176" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" ScopeGuid="99c5017b-f5fa-44e0-b3de-26400ddc1dc9" Timeout="60" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,925" sap2010:WorkflowViewState.IdRef="Sequence_9">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="504,982" sap2010:WorkflowViewState.IdRef="Sequence_9">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NCheckState DisplayName="Check App State 'Verification target'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,861" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="99c5017b-f5fa-44e0-b3de-26400ddc1dc9" Timeout="60" Version="V5">
+            <uix:NCheckState DisplayName="Check App State 'Verification target'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="470,918" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="99c5017b-f5fa-44e0-b3de-26400ddc1dc9" Timeout="60" Version="V5">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,547" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,461" sap2010:WorkflowViewState.IdRef="Sequence_10">
                   <Sequence.Variables>
-                    <Variable x:TypeArguments="x:String" Name="MyEnvironmentDownloads" />
+                    <Variable x:TypeArguments="x:String" Name="MyEnvironmentDownloadPath" />
                   </Sequence.Variables>
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Download Transactions'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="99c5017b-f5fa-44e0-b3de-26400ddc1dc9" Version="V5">
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Download Transactions'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="99c5017b-f5fa-44e0-b3de-26400ddc1dc9" Version="V5">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable BrowserURL="home.penfed.org/v2/s/transaction-download-page" CVScreenId="13fd315b-34ef-43cf-a99b-a799d013f8df" ContentHash="yxOVMklo1kCOVkxEeqDodA" CvElementArea="911, 843, 206, 34" CvTextArea="927, 851, 172, 16" CvTextArgument="Download Transactions" CvType="Button" DesignTimeRectangle="912, 844, 203, 32" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl sfl-path='siteforceCommunityApp/siteforceRouterInitializer/siteforceGeneratedpage55fa2d7c984941eaA148C0ffbe073c78C597_0/forceCommunityFlowCommunity/flowruntimeFlowRuntimeForFlexiPage/flowruntimeFlowRuntime/auraIf/flowruntimeFlow' tag='FLOWRUNTIME-FLOW' /&gt;&lt;webctrl aaname='Download Transactions' tag='BUTTON' /&gt;" Guid="770498f9-2437-4bb2-92cc-7e172d7af7d2" InformativeScreenshot="4e8b8604fec7ad4aa88e65cbf699ec9f.png" Reference="cEoxujFoEkGoAVEAiSigzA/DhNBqC2nP06FkMXOj9jwSg" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='chrome' title='Transaction Download page' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                         <uix:TargetAnchorable.Anchors>
-                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                             <uix:Target CVScreenId="13fd315b-34ef-43cf-a99b-a799d013f8df" CvElementArea="790, 843, 87, 34" CvTextArea="807, 852, 53, 14" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="792, 844, 84, 32" ElementType="Button" FuzzySelectorArgument="&lt;webctrl sfl-path='siteforceCommunityApp/siteforceRouterInitializer/siteforceGeneratedpage55fa2d7c984941eaA148C0ffbe073c78C597_0/forceCommunityFlowCommunity/flowruntimeFlowRuntimeForFlexiPage/flowruntimeFlowRuntime/auraIf/flowruntimeFlow' tag='FLOWRUNTIME-FLOW' matching:sfl-path='fuzzy' fuzzylevel:sfl-path='0.0' /&gt;&lt;webctrl aaname='Cancel' tag='BUTTON' type='' class='th-cancel-btn slds-button slds-button_outline-brand' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Cancel' /&gt;" Guid="8e40fdd7-74ee-4cdc-843d-cf82b34957ff" SearchSteps="FuzzySelector, CV" />
                           </scg:List>
                         </uix:TargetAnchorable.Anchors>
                       </uix:TargetAnchorable>
                     </uix:NClick.Target>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
                   </uix:NClick>
-                  <ui:GetEnvironmentVariable DisplayName="Get Environment Variable - User Profile" sap:VirtualizedContainerService.HintSize="416,118" sap2010:WorkflowViewState.IdRef="GetEnvironmentVariable_1" Variable="%USERPROFILE%" VariableValue="[MyEnvironmentDownloads]" />
+                  <ui:GetEnvironmentVariable DisplayName="Get Environment Variable - User Profile" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="GetEnvironmentVariable_1" Variable="USERPROFILE" VariableValue="[MyEnvironmentDownloadPath]">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </ui:GetEnvironmentVariable>
                   <Assign DisplayName="Assign - Calculate Download Folder" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="Assign_1">
                     <Assign.To>
-                      <OutArgument x:TypeArguments="x:String">[MyEnvironmentDownloads]</OutArgument>
+                      <OutArgument x:TypeArguments="x:String">[MyEnvironmentDownloadPath]</OutArgument>
                     </Assign.To>
                     <Assign.Value>
-                      <InArgument x:TypeArguments="x:String">[MyEnvironmentDownloads + "\Downloads"]</InArgument>
+                      <InArgument x:TypeArguments="x:String">[MyEnvironmentDownloadPath + "\Downloads\"]</InArgument>
                     </Assign.Value>
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -158,11 +173,23 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </Assign>
-                  <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,118" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[MyEnvironmentDownloads]" />
+                  <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[MyEnvironmentDownloadPath]">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </ui:MessageBox>
+                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ImportPostedTransactions - Invoke Workflow File (ImportPostedTransactions.xaml)" sap:VirtualizedContainerService.HintSize="416,173" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="ImportPostedTransactions.xaml">
+                    <ui:InvokeWorkflowFile.Arguments>
+                      <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                    </ui:InvokeWorkflowFile.Arguments>
+                  </ui:InvokeWorkflowFile>
                 </Sequence>
               </uix:NCheckState.IfExists>
               <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Target does not appear - Log Error" sap:VirtualizedContainerService.HintSize="450,25" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                <Sequence DisplayName="Target does not appear - Log Error" sap:VirtualizedContainerService.HintSize="468,25" sap2010:WorkflowViewState.IdRef="Sequence_11">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
