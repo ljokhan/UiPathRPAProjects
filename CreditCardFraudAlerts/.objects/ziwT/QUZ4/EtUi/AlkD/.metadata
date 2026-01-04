@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Credit Cards",
+  "Type": "Element",
+  "Id": "AlkDYQk_XUa06JiL3yxGzQ",
+  "Reference": "cEoxujFoEkGoAVEAiSigzA/AlkDYQk_XUa06JiL3yxGzQ",
+  "ParentRef": "cEoxujFoEkGoAVEAiSigzA/EtUiSH0Lvk-_JOwr1QLPcg",
+  "Created": "2026-01-04T03:58:08.8152675Z",
+  "Updated": "2026-01-04T03:58:08.8152675Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
