@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="M5-8O0U7FU2gVwniJSyUWQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" Selector="&lt;html app='msedge.exe' htmlwindowname='chrome' title='Transaction Download page' /&gt;" Url="home.penfed.org/v2/s/transaction-download-page" />
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>
