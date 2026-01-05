@@ -1,5 +1,5 @@
 {
-  "Name": "CreditCardFraudAlerts",
+  "Name": "CreditCardFraudPrevention",
   "ProjectType": "Process",
   "Description": "Blank Process",
   "MainFile": "Main.xaml"

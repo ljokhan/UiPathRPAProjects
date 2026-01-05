@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="r_hxpQk5VUKOiiaiCz20yQ" Reference="cEoxujFoEkGoAVEAiSigzA/Kt78a2Xotkaj3wSIjtVfsQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="penfed.org" CVScreenId="05aa83c1-fa00-4c2f-912e-7c0487572c6c" CvElementArea="1666, 142, 103, 43" CvTextArea="1691, 156, 52, 17" CvTextArgument="Log In" CvType="Button" DesignTimeRectangle="1668, 144, 99, 40" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Log In' parentid='topmenu2' tag='A' /&gt;" Guid="0cb1fb56-c28d-4adf-8f31-9537da2e255e" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='chrome' title='PenFed Credit Union | Checking, Savings, Auto, Credit Cards, Mortgage, &amp;amp; VA Loans' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="05aa83c1-fa00-4c2f-912e-7c0487572c6c" CvTextArea="921, 100, 132, 14" CvTextArgument="Routing # 256078446" CvType="Text" DesignTimeRectangle="921, 99, 132, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='topmenu1' tag='SPAN' type='' class='header-no-links' aaname='Routing # 256078446' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Routing # 256078446' /&gt;" Guid="2c35da2c-51c3-4913-9736-0caf4f8410ab" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2a870032d242d0b5ff3c5317fba18cd4.png" xmlns="">0ZaZyf1Cu4USlB0A9BheUyg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

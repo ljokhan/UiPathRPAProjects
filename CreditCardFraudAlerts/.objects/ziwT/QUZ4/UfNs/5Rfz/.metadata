@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Log Out",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "5Rfz_dQi4E-aUmw5X3o9lA",
+  "Reference": "cEoxujFoEkGoAVEAiSigzA/5Rfz_dQi4E-aUmw5X3o9lA",
+  "ParentRef": "cEoxujFoEkGoAVEAiSigzA/UfNsmIT8Mk2Rz-WsmvbqTA",
+  "Created": "2026-01-04T23:59:55.4204699Z",
+  "Updated": "2026-01-04T23:59:55.4204699Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
