@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="oaSbWwTRR0O4LvXnuqmkRw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="F1vofGlDa0izqW1qBwwy9g" Reference="cEoxujFoEkGoAVEAiSigzA/4D6oZZojM0av-2zUT3mHvw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="8b180169-3523-43dc-b985-248fdc63793a" CvTextArea="180, 313, 96, 17" CvTextArgument="Sign-in options" CvType="Text" DesignTimeRectangle="181, 311, 95, 19" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl automationid='ChooseAnotherOption' /&gt;&lt;ctrl name='Sign-in options' role='text' /&gt;" Guid="7551d133-d96c-47b0-ba9a-7cc5b01fa2ba" ScopeSelectorArgument="&lt;wnd app='credentialuibroker.exe' cls='Credential Dialog Xaml Host' title='Windows Security' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="8b180169-3523-43dc-b985-248fdc63793a" CvTextArea="180, 313, 96, 17" CvTextArgument="Sign-in options" CvType="Text" DesignTimeRectangle="181, 311, 95, 19" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl automationid='ChooseAnotherOption' /&gt;&lt;ctrl name='Sign-in options' role='text' /&gt;" Guid="7551d133-d96c-47b0-ba9a-7cc5b01fa2ba" ScopeSelectorArgument="&lt;wnd app='credentialuibroker.exe' cls='Credential Dialog Xaml Host' title='Windows Security' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]">
       <TargetAnchorable.Anchors>
-        <scg:List x:TypeArguments="ITarget" Capacity="4">
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
           <Target CVScreenId="8b180169-3523-43dc-b985-248fdc63793a" CvTextArea="60, 269, 336, 16" CvTextArgument="Scan your finger on the fingerprint reader." CvType="Text" DesignTimeRectangle="61, 265, 335, 24" ElementType="Text" FuzzySelectorArgument="&lt;ctrl automationid='BioFeedbackText' role='text' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Scan your finger on the fingerprint reader.' /&gt;" Guid="4d3f33b2-eb07-4ced-a088-5268226919fb" SearchSteps="FuzzySelector, CV" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="ecd37dc48b9572dbbb4d6861147c52b0.png" xmlns="">0wzZ3LYdT80SmZNmcaNq18w</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="ecd37dc48b9572dbbb4d6861147c52b0.png" xmlns="">0aKGQ5MmzbUyBez0vD_oLwg</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

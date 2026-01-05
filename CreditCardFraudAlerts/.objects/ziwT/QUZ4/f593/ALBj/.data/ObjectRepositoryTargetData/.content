@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="3AOIKTRQ3kuIu8ounLOlKg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="HTd2ErdFZEOJX0zzUa0nUQ" Reference="cEoxujFoEkGoAVEAiSigzA/ALBjafPHsU6BfohDX1Fllw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="commauth.penfed.org/as/authorization.oauth2" CVScreenId="53ed6af7-d140-4573-896e-510cfecb3579" CvElementArea="657, 714, 607, 44" CvTextArea="894, 728, 162, 21" CvTextArgument="Log in with Passkey" CvType="Button" DesignTimeRectangle="658, 714, 605, 44" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='windowshello' tag='A' /&gt;" Guid="8ed9c547-d835-4f88-b82b-b118a6adb563" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='chrome' title='Member Login' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="commauth.penfed.org/as/authorization.oauth2" CVScreenId="53ed6af7-d140-4573-896e-510cfecb3579" CvElementArea="657, 714, 607, 44" CvTextArea="894, 728, 162, 21" CvTextArgument="Log in with Passkey" CvType="Button" DesignTimeRectangle="658, 714, 605, 44" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='windowshello' tag='A' /&gt;" Guid="8ed9c547-d835-4f88-b82b-b118a6adb563" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='chrome' title='Member Login' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]">
       <TargetAnchorable.Anchors>
-        <scg:List x:TypeArguments="ITarget" Capacity="4">
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
           <Target CVScreenId="53ed6af7-d140-4573-896e-510cfecb3579" CvTextArea="657, 784, 149, 20" CvTextArgument="What's a Passkey?" CvType="Text" DesignTimeRectangle="658, 782, 148, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='penfedPasskeyLink' tag='A' type='' class='password-change penfed-passkey-link' aaname='What&amp;apos;s a Passkey?' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='What&amp;apos;s a Passkey?' /&gt;" Guid="7fbdacd0-9d6e-418d-9cff-3273f5b348cb" SearchSteps="FuzzySelector, CV" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="278ef8a928590f4ef7e73b75181dc5dc.png" xmlns="">0zNMNoXeFrUe86-3f-lLxOw</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="278ef8a928590f4ef7e73b75181dc5dc.png" xmlns="">0hJJqg02Ea0S_WWFJ71dMsw</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>
