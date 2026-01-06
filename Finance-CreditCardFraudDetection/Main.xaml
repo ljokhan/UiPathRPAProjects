@@ -97,30 +97,31 @@
       <AssemblyReference>System.Memory.Data</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="830,1482" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="830,1580" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" ContinueOnError="False" DisplayName="Edge - Open PenFed URL" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="524,1459" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Always]" ScopeGuid="62b559cc-819a-4b8f-aed6-3bc672f6e5df" Timeout="120" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" ContinueOnError="False" DisplayName="Edge - Open PenFed URL" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="524,1557" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Always]" ScopeGuid="62b559cc-819a-4b8f-aed6-3bc672f6e5df" Timeout="120" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="522,1265" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="522,1363" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NCheckState DelayBefore="5" DisplayName="Check App State - Check for Login button" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="488,1201" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="62b559cc-819a-4b8f-aed6-3bc672f6e5df" Timeout="120" Version="V5">
+            <uix:NCheckState DelayBefore="5" DisplayName="Check App State - Check for Login button" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="488,1299" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="62b559cc-819a-4b8f-aed6-3bc672f6e5df" Timeout="120" Version="V5">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="486,796" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                <Sequence DisplayName="Target appears - Login button appears" sap:VirtualizedContainerService.HintSize="486,985" sap2010:WorkflowViewState.IdRef="Sequence_4">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                   <uix:NClick ActivateBefore="True" ClickType="Single" ContinueOnError="False" DelayBefore="5" DisplayName="Click 'Log In' button" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,61" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="62b559cc-819a-4b8f-aed6-3bc672f6e5df" Timeout="60" Version="V5">
@@ -134,7 +135,7 @@
                       </uix:TargetAnchorable>
                     </uix:NClick.Target>
                     <uix:NClick.VerifyOptions>
-                      <uix:VerifyExecutionOptions DisplayName="Verification target" Mode="Appears" Retry="True">
+                      <uix:VerifyExecutionOptions DisplayName="Verification target" Mode="Appears" Retry="True" Timeout="30">
                         <uix:VerifyExecutionOptions.Target>
                           <uix:TargetAnchorable BrowserURL="commauth.penfed.org/as/authorization.oauth2" CVScreenId="dbd7ff9a-7200-4bb2-ad72-4858589ae8b8" ContentHash="NJXbg-RwYUm6g2hFMFv1qQ" CvTextArea="657, 287, 84, 15" CvTextArgument="Username" CvType="Text" DesignTimeRectangle="658, 282, 82, 26" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='ping-input-label' parentid='content-columns' tag='DIV' /&gt;" Guid="76fbd404-8956-4976-b601-1bebe33a640a" InformativeScreenshot="bb8ea6267227ca0b2092b2319e98c978.png" Reference="cEoxujFoEkGoAVEAiSigzA/Sce00u6w1kiYcaFtrwVdmw" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='chrome' title='Member Login' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                             <uix:TargetAnchorable.Anchors>
@@ -144,9 +145,6 @@
                             </uix:TargetAnchorable.Anchors>
                           </uix:TargetAnchorable>
                         </uix:VerifyExecutionOptions.Target>
-                        <uix:VerifyExecutionOptions.Timeout>
-                          <InArgument x:TypeArguments="x:Double" />
-                        </uix:VerifyExecutionOptions.Timeout>
                       </uix:VerifyExecutionOptions>
                     </uix:NClick.VerifyOptions>
                     <sap:WorkflowViewStateService.ViewState>
@@ -156,7 +154,7 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </uix:NClick>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="5" DisplayName="Click 'Log in with Passkey' button" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,61" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="62b559cc-819a-4b8f-aed6-3bc672f6e5df" Version="V5">
+                  <uix:NClick ActivateBefore="True" ClickType="Single" ContinueOnError="False" DelayBefore="5" DisplayName="Click 'Log in with Passkey' button" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,61" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="62b559cc-819a-4b8f-aed6-3bc672f6e5df" Timeout="60" Version="V5">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable BrowserURL="commauth.penfed.org/as/authorization.oauth2" CVScreenId="53ed6af7-d140-4573-896e-510cfecb3579" ContentHash="HTd2ErdFZEOJX0zzUa0nUQ" CvElementArea="657, 714, 607, 44" CvTextArea="894, 728, 162, 21" CvTextArgument="Log in with Passkey" CvType="Button" DesignTimeRectangle="658, 714, 605, 44" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='windowshello' tag='A' /&gt;" Guid="8ed9c547-d835-4f88-b82b-b118a6adb563" InformativeScreenshot="278ef8a928590f4ef7e73b75181dc5dc.png" Reference="cEoxujFoEkGoAVEAiSigzA/ALBjafPHsU6BfohDX1Fllw" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='chrome' title='Member Login' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]">
                         <uix:TargetAnchorable.Anchors>
@@ -186,13 +184,13 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </uix:NClick>
-                  <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" ContinueOnError="False" DisplayName="Link to Passkey screen" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,558" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="1f0a28df-dd5b-442f-8bca-ca7f5cfb1bbf" Timeout="60" Version="V2">
+                  <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" ContinueOnError="False" DisplayName="Link to Passkey webpage" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,747" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="1f0a28df-dd5b-442f-8bca-ca7f5cfb1bbf" Timeout="120" Version="V2">
                     <uix:NApplicationCard.Body>
                       <ActivityAction x:TypeArguments="x:Object">
                         <ActivityAction.Argument>
                           <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                         </ActivityAction.Argument>
-                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,299" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,488" sap2010:WorkflowViewState.IdRef="Sequence_3">
                           <Sequence.Variables>
                             <Variable x:TypeArguments="ss:SecureString" Name="myPenFedPIN" />
                           </Sequence.Variables>
@@ -202,7 +200,7 @@
                               <x:Boolean x:Key="IsPinned">False</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="5" DisplayName="Click 'Sign-in options' button" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,61" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1f0a28df-dd5b-442f-8bca-ca7f5cfb1bbf" Version="V5">
+                          <uix:NClick ActivateBefore="True" ClickType="Single" ContinueOnError="False" DelayBefore="5" DisplayName="Click 'Sign-in options' button" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,61" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1f0a28df-dd5b-442f-8bca-ca7f5cfb1bbf" Timeout="60" Version="V5">
                             <uix:NClick.Target>
                               <uix:TargetAnchorable CVScreenId="8b180169-3523-43dc-b985-248fdc63793a" ContentHash="F1vofGlDa0izqW1qBwwy9g" CvTextArea="180, 313, 96, 17" CvTextArgument="Sign-in options" CvType="Text" DesignTimeRectangle="181, 311, 95, 19" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl automationid='ChooseAnotherOption' /&gt;&lt;ctrl name='Sign-in options' role='text' /&gt;" Guid="7551d133-d96c-47b0-ba9a-7cc5b01fa2ba" InformativeScreenshot="ecd37dc48b9572dbbb4d6861147c52b0.png" Reference="cEoxujFoEkGoAVEAiSigzA/4D6oZZojM0av-2zUT3mHvw" ScopeSelectorArgument="&lt;wnd app='credentialuibroker.exe' cls='Credential Dialog Xaml Host' title='Windows Security' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]">
                                 <uix:TargetAnchorable.Anchors>
@@ -232,7 +230,7 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                           </uix:NClick>
-                          <uix:NClick ActivateBefore="True" ClickType="Single" ContinueOnError="False" DelayBefore="5" DisplayName="Click 'Scan your finger…' button" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,61" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1f0a28df-dd5b-442f-8bca-ca7f5cfb1bbf" Version="V5">
+                          <uix:NClick ActivateBefore="True" ClickType="Single" ContinueOnError="False" DelayBefore="5" DisplayName="Click 'Scan your finger…' button" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,61" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1f0a28df-dd5b-442f-8bca-ca7f5cfb1bbf" Timeout="60" Version="V5">
                             <uix:NClick.Target>
                               <uix:TargetAnchorable CVScreenId="78db0e58-ae04-49c0-9354-5ea4c25dd3e2" ContentHash="L-FiHKuWBkeHLnNjjjfyyA" CvElementArea="229, 304, 34, 35" CvType="Button" DesignTimeRectangle="230, 305, 32, 32" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Switch to PIN' role='list item' /&gt;" Guid="c855e07d-e3ef-4a04-b977-be85217dc80b" InformativeScreenshot="9505ec928024d620afa427d959ee9d8d.png" Reference="cEoxujFoEkGoAVEAiSigzA/mH3sYR4SJ0yRbY2UlvOFbQ" ScopeSelectorArgument="&lt;wnd app='credentialuibroker.exe' cls='Credential Dialog Xaml Host' title='Windows Security' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                                 <uix:TargetAnchorable.Anchors>
@@ -271,9 +269,9 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                           </ui:GetSecret>
-                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="False" DelayBefore="5" DisplayName="Type Into 'PIN' to log in" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,52" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="1f0a28df-dd5b-442f-8bca-ca7f5cfb1bbf" SecureText="[myPenFedPIN]" Version="V5">
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="False" DelayBefore="5" DisplayName="Type Into 'PIN' to log in" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,241" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="1f0a28df-dd5b-442f-8bca-ca7f5cfb1bbf" SecureText="[myPenFedPIN]" Timeout="60" Version="V5">
                             <uix:NTypeInto.Target>
-                              <uix:TargetAnchorable CVScreenId="ff86cc70-19e8-4fc7-93ff-0e9bc322e136" ContentHash="QO-h_wLzUU-I-KCSQpMorw" CvElementArea="27, 330, 402, 34" CvType="InputBox" DesignTimeRectangle="28, 332, 400, 32" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;ctrl automationid='PasswordField_4' role='editable text' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="1f9926ef-8adc-41bc-9c18-9d181a71b5d5" InformativeScreenshot="0Wd9Pwajue06KnHhZkpSBXg" Reference="cEoxujFoEkGoAVEAiSigzA/-6F00JQb9kGNjr6UJ-4o5A" ScopeSelectorArgument="&lt;wnd app='credentialuibroker.exe' cls='Credential Dialog Xaml Host' title='Windows Security' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.None]">
+                              <uix:TargetAnchorable CVScreenId="ff86cc70-19e8-4fc7-93ff-0e9bc322e136" ContentHash="QO-h_wLzUU-I-KCSQpMorw" CvElementArea="27, 330, 402, 34" CvType="InputBox" DesignTimeRectangle="28, 332, 400, 32" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;ctrl automationid='PasswordField_4' role='editable text' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="1f9926ef-8adc-41bc-9c18-9d181a71b5d5" InformativeScreenshot="0Wd9Pwajue06KnHhZkpSBXg" Reference="cEoxujFoEkGoAVEAiSigzA/-6F00JQb9kGNjr6UJ-4o5A" ScopeSelectorArgument="&lt;wnd app='credentialuibroker.exe' cls='Credential Dialog Xaml Host' title='Windows Security' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]">
                                 <uix:TargetAnchorable.Anchors>
                                   <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                     <uix:Target CVScreenId="ff86cc70-19e8-4fc7-93ff-0e9bc322e136" CvTextArea="27, 308, 23, 13" CvTextArgument="PIN" CvType="Text" DesignTimeRectangle="28, 305, 400, 19" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='PIN' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='PIN' /&gt;" Guid="e90a61ba-fc74-4933-955f-1fbb8613ed57" SearchSteps="FuzzySelector, CV" />
@@ -283,7 +281,7 @@
                             </uix:NTypeInto.Target>
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
@@ -329,13 +327,14 @@
                 </Sequence>
               </uix:NCheckState.IfExists>
               <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="486,116" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                <Sequence DisplayName="Target does not appear - Page not loading" sap:VirtualizedContainerService.HintSize="486,25" sap2010:WorkflowViewState.IdRef="Sequence_5">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,52" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Error" Message="[&quot;Could not open PenFed main page&quot;]">
+                  <ui:LogMessage DisplayName="Log Error Message" sap:VirtualizedContainerService.HintSize="416,52" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Error" Message="[&quot;Could not open PenFed main page. System down.&quot;]">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -354,6 +353,12 @@
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
               </uix:NCheckState.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
             </uix:NCheckState>
           </Sequence>
         </ActivityAction>

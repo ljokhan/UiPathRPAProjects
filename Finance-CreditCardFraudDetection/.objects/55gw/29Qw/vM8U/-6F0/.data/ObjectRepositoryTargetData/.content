@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="mYgrziQ3qkCYePOFt22ybw" Reference="cEoxujFoEkGoAVEAiSigzA/-6F00JQb9kGNjr6UJ-4o5A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="v_P5xZZlkEGWWH9qUHxBPg" Reference="cEoxujFoEkGoAVEAiSigzA/-6F00JQb9kGNjr6UJ-4o5A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="ff86cc70-19e8-4fc7-93ff-0e9bc322e136" CvElementArea="27, 330, 402, 34" CvType="InputBox" DesignTimeRectangle="28, 332, 400, 32" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;ctrl automationid='PasswordField_4' role='editable text' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="1f9926ef-8adc-41bc-9c18-9d181a71b5d5" ScopeSelectorArgument="&lt;wnd app='credentialuibroker.exe' cls='Credential Dialog Xaml Host' title='Windows Security' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.None]">
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="ff86cc70-19e8-4fc7-93ff-0e9bc322e136" CvElementArea="27, 330, 402, 34" CvType="InputBox" DesignTimeRectangle="28, 332, 400, 32" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;ctrl automationid='PasswordField_4' role='editable text' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="1f9926ef-8adc-41bc-9c18-9d181a71b5d5" ScopeSelectorArgument="&lt;wnd app='credentialuibroker.exe' cls='Credential Dialog Xaml Host' title='Windows Security' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]">
       <TargetAnchorable.Anchors>
         <scg:List x:TypeArguments="ITarget" Capacity="1">
           <Target CVScreenId="ff86cc70-19e8-4fc7-93ff-0e9bc322e136" CvTextArea="27, 308, 23, 13" CvTextArgument="PIN" CvType="Text" DesignTimeRectangle="28, 305, 400, 19" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='PIN' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='PIN' /&gt;" Guid="e90a61ba-fc74-4933-955f-1fbb8613ed57" SearchSteps="FuzzySelector, CV" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="dff560ac481da476a5e806a3f2702f68.png" xmlns="">0Wd9Pwajue06KnHhZkpSBXg</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="0Wd9Pwajue06KnHhZkpSBXg" xmlns="">0Wd9Pwajue06KnHhZkpSBXg</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">TypeInto</x:String>
   </ObjectRepositoryTargetData.Data>
